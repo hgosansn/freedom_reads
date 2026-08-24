@@ -28,7 +28,7 @@ Iceberg tools infer replenishing orders, but inference quality depends on venue 
 At a planned range extreme, absorption can support a rejection thesis. Enter on the reclaim or subsequent structural break, invalidate beyond the defended extreme, and target the next auction reference. In the middle of balance, the same pattern may be noise.
 
 {% hint style="warning" %}
-Large volume at a level is not automatically absorption. Without stalled progress and a response away, it may simply be active price discovery.
+Large volume identifies activity. Classify absorption only when aggressive effort fails to produce proportional progress and price subsequently displaces away from the defended level.
 {% endhint %}
 
-**Drill:** Compare 15 successful absorptions with 15 defenses that were consumed. Measure tests, total delta, time at level, and the first confirming displacement.
+**Study protocol:** Compare 50 confirmed absorptions with 50 passive defenses that were consumed. Measure test count, normalized delta, time at level, extension per unit volume, and confirmation delay.

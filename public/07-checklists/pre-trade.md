@@ -10,7 +10,7 @@ Pause before every order. The purpose is to prevent urgency from bypassing the d
 ## Thesis
 
 - [ ] What is the regime on the analysis timeframe?
-- [ ] Is this location meaningful on that timeframe?
+- [ ] Is this location defined by the selected profile, external structure, or measured liquidity?
 - [ ] Which named playbook setup is present?
 - [ ] What observable evidence confirms it now?
 - [ ] What would prove the thesis wrong?
@@ -40,5 +40,5 @@ Complete this sentence:
 > Because the market is **[context]** at **[location]**, if **[trigger]** occurs I will enter **[direction]**, invalidate at **[condition/price]**, and target **[objective]**, risking **[amount]**.
 
 {% hint style="warning" %}
-If any bracket remains vague, do not place the order. “I will manage it live” is not a risk plan.
+Reject the order if any bracket remains undefined. “I will manage it live” supplies no testable risk rule.
 {% endhint %}

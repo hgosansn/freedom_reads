@@ -14,7 +14,7 @@ Cumulative volume delta (CVD) is the running sum of ask volume minus bid volume.
 - **Price falls while CVD rises:** buying is ineffective and may be absorbed.
 - **Price holds while CVD trends:** persistent aggression is being met by passive liquidity.
 
-Divergence is context, not a reversal command. In trends, divergence can persist while passive participants continue moving price.
+Divergence identifies a mismatch between executed aggression and price. It can persist throughout a trend when passive participants continue to absorb and reprice inventory.
 
 ## Choose the right series
 
@@ -25,7 +25,7 @@ Spot CVD can help judge organic demand; perpetual CVD reflects leveraged aggress
 Confirm venue coverage, trade classification, reset time, missing data, and whether historical values repaint after reconnection. Keep settings fixed during a study.
 
 {% hint style="info" %}
-CVD describes who crossed the spread—not who is “winning.” Price response shows whether that aggression was effective.
+CVD identifies which side crossed the spread. Price response measures the effectiveness of that aggression.
 {% endhint %}
 
-**Drill:** Anchor CVD at 20 structural pivots. Categorize alignment and divergence, then compare which conditions led to continuation versus reversal.
+**Study protocol:** Anchor CVD at 50 structural pivots using fixed venue coverage. Categorize alignment and divergence, then measure continuation and reversal rates by location, regime, and spot-perpetual confirmation.

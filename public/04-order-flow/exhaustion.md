@@ -19,7 +19,7 @@ Low volume alone is ambiguous. It can mark exhaustion, but it can also mean thin
 
 ## Context first
 
-Exhaustion is most useful after a mature directional auction reaches a preplanned target, higher-timeframe extreme, or poor high/low. It is much less useful as a reason to fade a strong trend at an arbitrary price.
+Test exhaustion after a mature directional auction reaches a preplanned target, higher-timeframe extreme, or poor high/low. Away from those locations, declining aggression has little reversal value.
 
 | Feature | Absorption | Exhaustion |
 |---|---|---|
@@ -31,4 +31,4 @@ Exhaustion is most useful after a mature directional auction reaches a preplanne
 Absorption and exhaustion can coexist: the last aggressive orders may be absorbed while participation fades.
 {% endhint %}
 
-**Drill:** Find 20 session extremes and classify them as absorption, exhaustion, both, or neither using only information visible at the time.
+**Study protocol:** Classify 100 session extremes as absorption, exhaustion, both, or neither using frozen charts. Record the first opposing displacement and measure classification precision against subsequent auction behavior.

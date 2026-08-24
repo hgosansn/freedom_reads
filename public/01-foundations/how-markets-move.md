@@ -13,7 +13,7 @@ Markets move when aggressive buyers or sellers consume the resting liquidity ava
 
 **Orders** are how that intent enters the market. Limit orders provide liquidity; market orders demand immediacy; stops become marketable orders when triggered.
 
-**Outcome** is the observable response: displacement, absorption, rejection, or continued balance. Trade the outcome rather than inventing a story about intent.
+**Outcome** is the observable response: displacement, absorption, rejection, or continued balance. Positioning follows the observed response; explanations of intent remain hypotheses.
 
 | Aggression | Price response | Working interpretation |
 |---|---|---|
@@ -24,7 +24,7 @@ Markets move when aggressive buyers or sellers consume the resting liquidity ava
 
 ## Why crypto is distinctive
 
-Crypto trades continuously across fragmented venues. Spot, perpetual futures, dated futures, and options can lead at different moments. Funding, liquidations, collateral stress, and exchange-specific positioning may amplify moves. A print on one venue is evidence—not the entire market.
+Crypto trades continuously across fragmented venues. Spot, perpetual futures, dated futures, and options lead at different moments. Funding, liquidations, collateral stress, and exchange-specific positioning amplify some moves. A print on one venue describes that venue; confirmation requires the instruments and venues relevant to the thesis.
 
 {% hint style="info" %}
 Volume alone does not move price. Price response relative to volume reveals whether aggressive flow is effective.
@@ -39,4 +39,4 @@ Before labeling a move, ask:
 3. Did price hold the newly traded area or snap back?
 4. Did correlated spot and derivatives confirm?
 
-**Drill:** Replay ten impulsive BTC or ETH moves. Mark the origin, first pause, retest, and point of acceptance or failure. Describe each without using *bullish* or *bearish*.
+**Study protocol:** Sample 30 impulsive BTC or ETH moves across Asia, Europe, and US hours. Mark the origin, first pause, retest, and first evidence of acceptance or failure. Record range expansion, volume percentile, and value migration without using *bullish* or *bearish*.

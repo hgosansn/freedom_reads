@@ -5,7 +5,7 @@ icon: flag-checkered
 
 # Targets
 
-A target is where the market is likely to encounter opposing flow or complete the expected auction path. It should follow from the thesis rather than an arbitrary multiple of risk.
+A target marks probable opposing flow or completion of the expected auction path. Derive it from the thesis first, then use reward to risk as a trade filter.
 
 ## Target hierarchy
 
@@ -13,7 +13,7 @@ A target is where the market is likely to encounter opposing flow or complete th
 2. **Primary objective:** POC, opposite value edge, prior extreme, or breakout projection implied by the setup.
 3. **Extension:** external liquidity or a higher-timeframe reference if acceptance persists.
 
-Reward-to-risk filters whether the path compensates for risk; they do not create a target. A theoretical 3R target beyond major opposing structure is not automatically realistic.
+Reward to risk measures whether the mapped path compensates for exposure. A theoretical 3R price beyond a major opposing distribution is irrelevant unless historical excursions reach it with sufficient frequency.
 
 ## Scaling choices
 
@@ -22,7 +22,7 @@ Full exit at one objective is easiest to test. Scaling reduces outcome variance 
 Account for fees and slippage in realized R. On smaller crypto pairs, expected exit liquidity can be more important than chart precision.
 
 {% hint style="info" %}
-Ask who is likely to transact at the target and why. Prior highs, value edges, and HVNs matter because they may attract orders—not because lines possess force.
+Identify the order source expected at the target. Prior highs, value edges, and HVNs matter when they attract stops, responsive inventory, or two-sided trade.
 {% endhint %}
 
-**Drill:** For 50 setup examples, record the frequency and time-to-hit for the first trouble area, primary objective, and extension before changing your target model.
+**Study protocol:** For 100 setup examples, record hit rate, time to hit, MAE before hit, and overshoot for each target tier. Reserve an out-of-sample set before changing the model.

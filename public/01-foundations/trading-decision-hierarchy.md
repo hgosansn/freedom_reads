@@ -5,7 +5,7 @@ icon: layer-group
 
 # The trading decision hierarchy
 
-A signal has no independent meaning. The same positive delta can confirm continuation above accepted value or mark trapped buyers at a range high. Decisions become coherent when evidence is processed in a fixed order.
+Signals inherit meaning from context. Positive delta can confirm continuation above accepted value or identify ineffective buying at a range high. Process evidence in a fixed order so a lower-timeframe print cannot override auction context.
 
 ## The hierarchy
 
@@ -28,10 +28,10 @@ Each branch specifies evidence, response, and non-action. This keeps the trader 
 
 ## Evidence weighting
 
-Treat confluence as independent evidence, not a collection of correlated indicators. Market structure and a moving average derived from the same price series are not two independent facts. Stronger confluence combines different dimensions: location, auction behavior, and order-flow response.
+Count independent evidence. Market structure and a moving average derived from the same price series are one price-based input, not two confirmations. A stronger evidence stack combines location, auction behavior, and order-flow response.
 
 {% hint style="warning" %}
-Never start with an entry signal and work backward to justify it. That reverses the hierarchy and encourages confirmation bias.
+Starting with an entry signal and working backward reverses the hierarchy. Reject any trade whose context and location were documented only after the trigger appeared.
 {% endhint %}
 
-**Drill:** For 20 historical sessions, write only the regime and two conditional branches before viewing the session outcome. Score whether your conditions were observable and whether you respected the no-trade branch.
+**Study protocol:** For 30 historical sessions, freeze the chart at the decision time and write the regime plus two conditional branches. Score each condition as observable, ambiguous, or retrospective. Retain only conditions that two independent reviewers could classify consistently.

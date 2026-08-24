@@ -7,7 +7,7 @@ icon: people-arrows-left-right
 
 Trapped traders hold positions whose immediate premise has failed. Buyers can become trapped after an upside breakout returns below the boundary; sellers can become trapped after a downside break is reclaimed.
 
-Their exits create opposing market orders, potentially accelerating the reversal. The setup is powerful because it combines failed information with forced behavior.
+Their exits create opposing market orders that can accelerate the reversal. The trade becomes actionable when failed acceptance coincides with positioning that must exit through limited liquidity.
 
 ## Confirming a trap
 
@@ -17,16 +17,16 @@ Their exits create opposing market orders, potentially accelerating the reversal
 4. The reference is reclaimed.
 5. Price holds back inside, pressuring late entrants.
 
-You cannot see every participant's position. “Trapped” is an inference supported by location, aggression, and failure—not a certainty.
+Participant inventory is not directly observable. “Trapped” is an inference supported by entry location, aggressive flow, failed acceptance, and the subsequent need to exit.
 
 ## Trade construction
 
-The safest trigger is often the reclaim and failed retest, not the first wick. Invalidation sits where renewed acceptance would rescue the breakout thesis. Initial targets include the prior POC, origin of the breakout, or opposite range edge.
+Use the reclaim and failed retest as the default trigger. A first wick confirms neither trapped inventory nor inside acceptance. Invalidation sits where renewed acceptance restores the breakout thesis. Initial targets include prior POC, breakout origin, and the opposite range edge.
 
 Perpetual open interest can add context. Rising open interest into a failed breakout suggests new positions were created, while a reversal accompanied by falling open interest can indicate liquidation or closing. Neither series identifies direction on its own.
 
 {% hint style="warning" %}
-Do not assume every liquidation wick creates a durable reversal. Forced exits can clear positioning and allow the original trend to resume.
+A liquidation wick can clear weak positioning and allow the original trend to resume. Require inside acceptance before classifying a durable trap.
 {% endhint %}
 
-**Drill:** Log 25 failed breaks with delta and open interest. Record reclaim timing and maximum favorable excursion to define a usable entry window.
+**Study protocol:** Log 50 failed breaks with venue-level delta and open interest. Record reclaim timing, change in open interest, MAE, and MFE to estimate the viable entry window.

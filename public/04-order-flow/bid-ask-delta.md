@@ -16,14 +16,14 @@ Delta measures aggression, not net capital entering the market. Every trade has 
 - Negative delta with falling price: selling is effective.
 - Negative delta with stable or rising price: selling may be absorbed.
 
-Interpret this at a meaningful location. A delta extreme in the middle of value is usually less useful than one at an auction boundary.
+Interpret delta at a predefined auction location. An extreme in the middle of value has weak directional information; the same print at a boundary tests whether aggressive flow can move the auction.
 
 ## Data limitations
 
 Crypto order flow is venue-specific. A footprint from one exchange excludes activity elsewhere, and trade-classification methods can differ. Use a consistently liquid venue, compare spot with perpetuals when relevant, and avoid combining feeds without understanding normalization.
 
 {% hint style="info" %}
-Delta divergence is an observation, not an entry. It needs location, structural response, and an invalidation point.
+Delta divergence records a mismatch between aggression and price. Entry still requires location, structural response, and a defined invalidation.
 {% endhint %}
 
-**Drill:** Screenshot 30 high-delta candles at predefined levels. Label whether aggression produced progress over the next three candles and whether the level held.
+**Study protocol:** Sample 100 high-delta intervals at predefined levels. Normalize delta by local volume, then record price progress over one, three, and ten intervals. Segment by location and volatility regime.

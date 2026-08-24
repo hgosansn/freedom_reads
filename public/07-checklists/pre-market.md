@@ -31,7 +31,7 @@ Crypto has no universal open, so “pre-market” means the scheduled preparatio
 - [ ] Define the no-trade zone and conditions.
 
 {% hint style="success" %}
-A complete plan should fit in a few sentences: context, location, conditions, play, and invalidation. More detail is not automatically more clarity.
+A complete plan states context, location, qualifying conditions, play, and invalidation. Remove commentary that does not change a decision.
 {% endhint %}
 
 ## Readiness
@@ -40,4 +40,4 @@ A complete plan should fit in a few sentences: context, location, conditions, pl
 - [ ] No pressure to recover losses or force a daily profit goal.
 - [ ] Screenshots and journal template are ready.
 
-If a critical item is unknown, reduce exposure or wait. Uncertainty is a position-sizing input, not a problem analysis must pretend to solve.
+If a critical input is unavailable, reduce exposure or stand aside. Map uncertainty directly to size or a no-trade condition.

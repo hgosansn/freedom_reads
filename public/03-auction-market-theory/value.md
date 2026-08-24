@@ -5,11 +5,11 @@ icon: bullseye
 
 # Value
 
-Value is the price region where the market has conducted meaningful two-sided business. In a volume profile, the value area commonly contains about 70% of the selected profile's volume. It is a statistical convention, not intrinsic fair value.
+Value is the price region that concentrated two-sided trade during the selected auction. A conventional volume-profile value area contains about 70% of the profile's volume. The percentage is a calculation parameter and has no claim to intrinsic fair value.
 
 ## Reference selection
 
-A value area is only as meaningful as its profile period. Common references include prior day, current session, composite range, and anchored event profiles. Choose the period that matches the decision horizon and do not change it to fit a trade.
+The profile period defines the question. Prior-day, current-session, composite-range, and event-anchored profiles describe different auctions. Select the period from the decision horizon and keep it fixed through review.
 
 ## Reading value migration
 
@@ -18,7 +18,7 @@ A value area is only as meaningful as its profile period. Common references incl
 - **Overlapping value:** continued balance or weak directional conviction.
 - **Price away from value:** active discovery; watch whether value follows or price returns.
 
-Price above value is not automatically expensive, and price below value is not automatically cheap. In a strong trend, value can migrate behind price for several sessions.
+Price above value indicates location outside the selected distribution, not overvaluation. Price below value does not establish a discount. During directional discovery, value can migrate behind price for several sessions.
 
 ## Open scenarios
 
@@ -28,4 +28,4 @@ An open inside prior value favors initial rotation. An open outside value but in
 Keep profile settings, timezone, and data source consistent. A UTC crypto session profile will differ from one split around another exchange's settlement.
 {% endhint %}
 
-**Drill:** Track seven consecutive daily profiles. Before each session ends, estimate where value will settle and note whether it migrated, overlapped, or reversed.
+**Study protocol:** Track 30 consecutive daily profiles with a fixed UTC session and feed. At a fixed time before close, estimate final VAH, VAL, and POC. Record migration, overlap percentage, and forecast error.

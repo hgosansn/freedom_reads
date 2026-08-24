@@ -5,13 +5,13 @@ icon: chart-bar
 
 # HVN / LVN
 
-A **high-volume node (HVN)** is a price region with concentrated traded volume. It represents past facilitation and often supports rotation. A **low-volume node (LVN)** contains relatively little volume and often marks rejection or a zone through which price traveled efficiently.
+A **high-volume node (HVN)** is a local concentration of traded volume within the selected profile. It records past facilitation and tends to slow trade when the same auction remains relevant. A **low-volume node (LVN)** is a local volume trough produced by rejection or efficient traversal.
 
 ## Expected behavior
 
-Price commonly slows and rotates around an HVN because the market previously found agreement there. At an LVN, price may reject quickly or traverse rapidly toward the next HVN. These are tendencies conditioned on context.
+At an HVN, prior facilitation supports two-sided execution and rotation. At an LVN, price either rejects or traverses toward the next distribution. Profile origin, direction of approach, and current flow determine which response is tradable.
 
-Think in zones, not exact ticks. Bin size, profile period, and feed quality change the shape. A node visible on a weekly composite may matter more than one created by a short, low-liquidity session.
+Treat nodes as zones. Bin size, profile period, and feed quality alter their boundaries. Record those parameters; otherwise two charts labeled with the same node are not reproducible.
 
 ## Composite profiles
 
@@ -28,4 +28,4 @@ Profile a completed balance to locate its distribution. Multiple HVNs separated 
 An HVN does not inherently support price, and an LVN is not inherently resistance. Direction of approach and current participation decide the response.
 {% endhint %}
 
-**Drill:** Select ten completed balances. Mark their major nodes, then study the first future revisit without moving the profile anchors.
+**Study protocol:** Select 30 completed balances and lock the profile anchors before viewing future trade. Record the first revisit to each major node, approach velocity, time in zone, rotation distance, and traversal rate.

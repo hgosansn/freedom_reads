@@ -27,10 +27,10 @@ Time matters. On a one-minute execution chart, several closes may look convincin
 
 ## The close-location trap
 
-A close beyond a level is useful but insufficient. Thin weekend books, liquidation spikes, and event volatility can create dramatic closes without durable participation. Look for the market's ability to revisit and defend the new area.
+A close beyond a level confirms only that the interval ended there. Thin weekend books, liquidation spikes, and event volatility produce closes without durable participation. Require the market to revisit and defend the new area or build volume there.
 
 {% hint style="success" %}
-Define acceptance before the test—for example, “two 15-minute closes above, volume building above, and a retest that does not close back inside.”
+Define acceptance before the test. Example: “Two 15-minute closes above, at least 30% of interval volume transacted above, and no 15-minute close back inside on the first retest.”
 {% endhint %}
 
-**Drill:** Collect 25 breaks of prior-day extremes. Hide the right edge and classify each after the first test. Reveal five candles at a time and record when the evidence became sufficient to call acceptance or rejection.
+**Study protocol:** Collect 50 breaks of prior-day extremes. Reveal one decision interval at a time and timestamp the first valid acceptance or rejection classification. Record false classifications and the information that invalidated them.

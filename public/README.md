@@ -5,9 +5,9 @@ icon: chart-candlestick
 
 # Market Reading System
 
-Price action tells you **what** the market is doing. Auction theory explains **where** it is doing it. Order flow helps you judge **whether the move is being accepted**. Execution converts that read into defined risk.
+Price action describes the market's path. Auction theory locates that path relative to value and prior distributions. Order flow tests whether aggressive participation is producing price progress. Execution converts the combined read into defined risk.
 
-This course combines those layers into one repeatable decision system for liquid crypto spot and perpetual markets.
+The course integrates those layers into a decision system for liquid crypto spot and perpetual markets.
 
 {% hint style="warning" %}
 This material is educational, not financial advice. Crypto markets are highly volatile; leverage can cause losses greater than expected. Practice in replay or simulation before risking capital.
@@ -18,12 +18,12 @@ This material is educational, not financial advice. Crypto markets are highly vo
 Every trade should answer five questions in order:
 
 1. **Context:** Is the market balancing, trending, or transitioning?
-2. **Location:** Is price at value, an auction extreme, or meaningful liquidity?
+2. **Location:** Is price at value, a defined auction extreme, or a documented liquidity concentration?
 3. **Behavior:** Is the market accepting or rejecting that location?
 4. **Trigger:** What observable event authorizes entry?
-5. **Risk:** Where is the idea wrong, and is the reward worth the exposure?
+5. **Risk:** Which observation invalidates the thesis, and does the target distribution justify the exposure?
 
-Skipping an earlier question makes every later answer less reliable.
+Later decisions remain conditional on the earlier layers. A trigger cannot repair a regime or location error.
 
 ## Course map
 
@@ -34,11 +34,11 @@ Skipping an earlier question makes every later answer less reliable.
 <tr><td><i class="fa-wave-square"></i></td><td><strong>Order Flow</strong></td><td>Interpret aggression, absorption, exhaustion, and CVD.</td><td><a href="04-order-flow/bid-ask-delta.md">Read flow</a></td></tr>
 <tr><td><i class="fa-book-open"></i></td><td><strong>Trading Playbook</strong></td><td>Execute three defined, testable setups.</td><td><a href="05-trading-playbook/failed-auction-reversal.md">Open playbook</a></td></tr>
 <tr><td><i class="fa-crosshairs"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="06-execution-framework/entry.md">Build execution</a></td></tr>
-<tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Turn sound analysis into a repeatable process.</td><td><a href="07-checklists/pre-market.md">Use checklists</a></td></tr>
+<tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="07-checklists/pre-market.md">Use checklists</a></td></tr>
 </tbody></table>
 
 ## How to use the course
 
-Work in sequence once. Annotate charts as you study, then replay at least 20 examples of each playbook setup. Record the information available **at the decision point**; hindsight screenshots train recognition without training decisions.
+Work through the modules in sequence once. Annotate charts, then test each playbook on a minimum of 50 in-sample and 30 out-of-sample cases. Record only information available **at the decision point**. Completed charts test recognition; frozen charts test decisions.
 
-A useful journal separates process from outcome: a well-executed losing trade is valid data, while an undisciplined winner is a process failure.
+Journal process and outcome separately. A rule-compliant loss remains valid setup data. A winner produced by an unplanned entry or risk violation belongs in the error sample.

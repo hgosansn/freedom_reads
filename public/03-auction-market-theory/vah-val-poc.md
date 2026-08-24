@@ -1,5 +1,5 @@
 ---
-description: Apply value-area high, value-area low, and point of control as auction references rather than automatic signals.
+description: Apply value-area high, value-area low, and point of control as references within a defined auction.
 icon: lines-leaning
 ---
 
@@ -17,16 +17,16 @@ icon: lines-leaning
 
 At VAH, rejection back into value can target POC and potentially VAL. Acceptance above VAH invalidates the rotational premise and can initiate discovery. The inverse applies at VAL.
 
-A naked POC—one not revisited in later sessions—is a contextual reference, not a promise that price must return. Strong imbalance can leave many behind.
+A naked POC is a prior point of control that later sessions have not revisited. It remains a contextual reference; directional auctions can leave several untouched without reverting.
 
 | Observation | Implication to test |
 |---|---|
 | Stable POC, overlapping value | Balanced trade persists |
 | POC migrating with price | Directional acceptance strengthens |
-| Price extends, POC does not follow | Move may lack developing acceptance |
+| Price extends, POC does not follow | Test for thin discovery or failed extension |
 
 {% hint style="warning" %}
 Profile references vary by venue and session definition. Record the exchange, instrument, and profile window in every review.
 {% endhint %}
 
-**Drill:** For 20 prior-day profiles, record first touch of VAH and VAL, the response, and whether price reached POC before invalidation.
+**Study protocol:** For 50 prior-day profiles, record the first touch of VAH and VAL, opening location, approach velocity, response, MAE, and whether POC traded before invalidation. Separate trend and balance sessions.

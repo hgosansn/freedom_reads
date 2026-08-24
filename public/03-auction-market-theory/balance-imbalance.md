@@ -21,12 +21,12 @@ The practical distinction changes the strategy:
 
 ## Balance rules
 
-The middle of balance offers poor asymmetry. Edges provide defined invalidation, but an edge is not automatically a reversal. Acceptance outside converts the old edge from a fade location into a potential continuation reference.
+The middle of balance offers poor asymmetry because targets and invalidation are both nearby. At an edge, defined invalidation improves trade construction. The edge becomes a reversal location only after rejection; acceptance outside converts it into a continuation reference.
 
 Nested balances are common in crypto: an intraday range may exist inside a weekly directional auction. Name both the timeframe and boundary.
 
 {% hint style="warning" %}
-Do not apply trend tactics inside balance or repeatedly fade a range after the market has accepted outside it.
+Match tactics to state. Trend entries inside balance suffer repeated mean reversion; range fades lose validity once value develops outside the boundary.
 {% endhint %}
 
-**Drill:** Classify 30 sessions at their midpoint as balance, imbalance, or transition. Write the tactic each state permits, then compare with the completed session.
+**Study protocol:** Classify 50 sessions at a fixed midpoint as balance, imbalance, or transition using explicit thresholds for overlap, range expansion, and POC migration. Compare each classification with the completed session and report confusion rates.

@@ -5,7 +5,7 @@ icon: rotate-left
 
 # Failed Auction Reversal
 
-This setup trades the return into a prior auction after price tests outside and fails to establish value. It is a responsive trade: evidence of failure must appear before entry.
+The Failed Auction Reversal trades re-entry into a prior auction after an outside test fails to establish value. Entry follows confirmed failure; the first excursion supplies location only.
 
 ## Conditions
 
@@ -48,7 +48,7 @@ Invalidate beyond the failed extreme or where renewed outside acceptance disprov
 Skip when value is migrating through the boundary, correlated markets confirm discovery, event risk makes structure unreliable, or the first target cannot justify the stop.
 
 {% hint style="warning" %}
-The setup is not “price touched resistance.” The edge comes from an attempted auction, observable failure, and trapped continuation positioning.
+The setup requires three separate observations: an attempted auction, failed outside acceptance, and flow consistent with continuation traders exiting. A touch of support or resistance satisfies none of them.
 {% endhint %}
 
-**Review metrics:** boundary type, time outside, entry model, initial risk, maximum favorable/adverse excursion, target reached, and rule adherence.
+**Validation sample:** Collect at least 50 cases. Record boundary type, time and volume outside, entry model, initial risk, maximum favorable and adverse excursion, target reached, and rule adherence. Report results by regime instead of pooling all failures.

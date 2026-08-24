@@ -15,7 +15,7 @@ An entry is the moment sufficient evidence exists to take defined risk. It is no
 | Confirmation on displacement | More information | Worse price, larger stop |
 | Retest after confirmation | Balance of price and evidence | Retest may never occur |
 
-Choose one primary style per setup. Mixing them during a trade usually means chasing after the planned entry is missed.
+Assign one primary entry style to each setup. Switching styles after the planned entry is missed changes the tested setup and must be logged as a separate execution model.
 
 ## Trigger specification
 
@@ -24,7 +24,7 @@ Define instrument, venue, trigger timeframe, observable event, permitted order t
 Limit orders control price but risk no fill. Market orders prioritize execution but expose the trade to spread and slippage. Stop-market orders confirm movement but may fill poorly during liquidations. Match the order to liquidity and urgency.
 
 {% hint style="danger" %}
-Never increase size merely because a delayed entry makes the stop farther away. Position size is derived from fixed risk divided by stop distance.
+Recalculate position size from fixed account risk after any entry-price change. A wider stop requires smaller size.
 {% endhint %}
 
-**Drill:** Replay 30 instances of one setup and compare all three entry styles using realistic fees and slippage. Select by expectancy, not win rate alone.
+**Study protocol:** Replay at least 100 instances of one setup and compare all three entry styles with realistic fees, spread, slippage, and non-fills. Select using expectancy, drawdown, and execution variance.

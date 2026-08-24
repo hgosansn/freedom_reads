@@ -15,16 +15,16 @@ A failed auction occurs when price attempts to leave an established area, finds 
 4. Price re-enters and holds inside the prior auction.
 5. Follow-through confirms that the failure is actionable.
 
-The first trade beyond the boundary is not yet failure. Re-entry without follow-through may remain a noisy test.
+The first trade beyond the boundary establishes only an attempted extension. Failure requires re-entry plus evidence that trade is developing back inside. A single recross remains unresolved.
 
 ## Quality factors
 
 Stronger failures occur at well-observed references, show obvious excess or absorption, reclaim the boundary decisively, and leave trapped positioning. Weak failures occur in the middle of broader balance or without a clear outside attempt.
 
-Targets often progress from the range's POC to its opposite value edge. Invalidation belongs beyond the failed extreme or beyond the structure that proves renewed acceptance outside.
+Target selection follows the returning auction: range POC first, then the opposite value edge if rotation develops. Invalidation sits beyond the failed extreme or the structure that confirms renewed outside acceptance.
 
 {% hint style="warning" %}
-During strong discovery, repeatedly fading new highs or lows is expensive. A failed auction requires evidence of failure, not merely an extended market.
+During strong discovery, repeated fades at new highs or lows accumulate losses. Require re-entry and inside acceptance before assigning the failed-auction label.
 {% endhint %}
 
-**Drill:** Build two sets of 20 breakouts: accepted and failed. Compare time outside, volume outside, re-entry speed, and follow-through. Turn the largest differences into explicit criteria.
+**Study protocol:** Build matched samples of 50 accepted and 50 failed breaks. Compare time and volume outside, re-entry speed, delta efficiency, open-interest change, and follow-through. Convert only stable differences into setup criteria.

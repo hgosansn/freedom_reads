@@ -5,7 +5,7 @@ icon: arrow-trend-up
 
 # Trend Pullback
 
-The Trend Pullback joins an accepted directional auction after price rotates against it. The goal is not to buy every dip or sell every rally, but to enter where the pullback is likely corrective and the trend thesis has clear invalidation.
+The Trend Pullback joins an accepted directional auction after a countertrend rotation reaches a predefined reference. The setup requires evidence that the rotation is corrective and a structural point that invalidates continuation.
 
 ## Trend qualification
 
@@ -17,7 +17,7 @@ The Trend Pullback joins an accepted directional auction after price rotates aga
 
 ## Preferred locations
 
-Prior breakout boundaries, developing value edges, LVNs between distributions, impulse origins, and internal liquidity sweeps can all provide location. Use the level that matches the profile and timeframe being traded.
+Candidate locations include prior breakout boundaries, developing value edges, LVNs between distributions, impulse origins, and internal liquidity sweeps. Select one from the analysis timeframe before the pullback begins.
 
 ## Trigger sequence
 
@@ -29,11 +29,11 @@ Prior breakout boundaries, developing value edges, LVNs between distributions, i
 Invalidate beyond the structural point that proves the pullback is no longer corrective. Target the prior trend extreme first, then external liquidity or profile projections.
 
 {% hint style="warning" %}
-A deep pullback with expanding countertrend range, volume, and migrating value may be transition—not a discount entry.
+A deep pullback with expanding countertrend range, rising volume, and value migrating against the trend signals transition. Remove the continuation premise until trend acceptance returns.
 {% endhint %}
 
 ## No-trade conditions
 
 Skip late-stage parabolic moves, pullbacks directly after major regime-changing news, conflicting external structure, or entries with no space before the prior extreme.
 
-**Drill:** Separate 30 shallow and 30 deep pullbacks. Compare structure, value migration, delta effectiveness, and continuation rate.
+**Validation sample:** Separate at least 50 shallow and 50 deep pullbacks using an ATR or retracement threshold fixed in advance. Compare structure, value migration, delta efficiency, continuation rate, MAE, and MFE.
