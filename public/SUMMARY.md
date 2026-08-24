@@ -1,27 +1,50 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Market Reading System](README.md)
 
-## Getting Started
+## 01. Foundations
 
-* [Getting started](getting-started/getting-started.md)
-* [Quickstart](getting-started/quickstart.md)
-* [Your first project](getting-started/your-first-project.md)
+* [How markets move](01-foundations/how-markets-move.md)
+* [The trading decision hierarchy](01-foundations/trading-decision-hierarchy.md)
 
-## Core concepts
+## 02. Price Action
 
-* [Core concepts](core-concepts/core-concepts.md)
-* [Workspaces and projects](core-concepts/workspaces-and-projects.md)
-* [Permissions](core-concepts/permissions.md)
+* [Market structure](02-price-action/market-structure.md)
+* [External vs internal structure](02-price-action/external-vs-internal-structure.md)
+* [Liquidity](02-price-action/liquidity.md)
+* [Acceptance / rejection](02-price-action/acceptance-rejection.md)
 
-## Guides
+## 03. Auction Market Theory
 
-* [Guides](guides/guides.md)
-* [Custom domains](guides/custom-domains.md)
-* [Automations](guides/automations.md)
+* [Balance / imbalance](03-auction-market-theory/balance-imbalance.md)
+* [Value](03-auction-market-theory/value.md)
+* [VAH / VAL / POC](03-auction-market-theory/vah-val-poc.md)
+* [HVN / LVN](03-auction-market-theory/hvn-lvn.md)
+* [Failed auctions](03-auction-market-theory/failed-auctions.md)
 
-## Reference
+## 04. Order Flow
 
-* [Reference](reference/reference.md)
-* [Configuration](reference/configuration.md)
-* [Glossary](reference/glossary.md)
+* [Bid / Ask / Delta](04-order-flow/bid-ask-delta.md)
+* [Absorption](04-order-flow/absorption.md)
+* [Exhaustion](04-order-flow/exhaustion.md)
+* [Trapped traders](04-order-flow/trapped-traders.md)
+* [CVD](04-order-flow/cvd.md)
+
+## 05. Trading Playbook
+
+* [Failed Auction Reversal](05-trading-playbook/failed-auction-reversal.md)
+* [Breakout Acceptance](05-trading-playbook/breakout-acceptance.md)
+* [Trend Pullback](05-trading-playbook/trend-pullback.md)
+
+## 06. Execution Framework
+
+* [Entry](06-execution-framework/entry.md)
+* [Invalidation](06-execution-framework/invalidation.md)
+* [Targets](06-execution-framework/targets.md)
+* [Management](06-execution-framework/management.md)
+
+## 07. Checklists
+
+* [Pre-market](07-checklists/pre-market.md)
+* [Pre-trade](07-checklists/pre-trade.md)
+* [Post-trade review](07-checklists/post-trade-review.md)
