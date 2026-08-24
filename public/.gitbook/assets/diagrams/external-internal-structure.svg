@@ -1,10 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
-  <title id="title">External and internal market structure</title>
-  <desc id="desc">Small internal rotations remain contained by the external swing high and low until price accepts beyond a boundary.</desc>
-  <rect width="960" height="420" rx="24" fill="#0b1220"/>
-  <rect x="75" y="75" width="810" height="265" rx="10" fill="#111c2f" stroke="#f4c95d" stroke-width="3" stroke-dasharray="10 8"/>
-  <path d="M95 285L190 125L260 230L335 150L420 270L505 175L585 245L660 135L745 225L855 105" fill="none" stroke="#38e08f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif"><text x="75" y="55" font-size="18">External high</text><text x="75" y="372" font-size="18">External low</text><text x="350" y="205" font-size="20">Internal rotations</text></g>
-  <path d="M690 95L700 60L710 95" fill="none" stroke="#38e08f" stroke-width="4"/>
-  <text x="675" y="60" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="16">Promotes after acceptance</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">External structure with nested internal swings</title>
+  <desc id="desc">A thick green path connects the external low, external high, and external higher low. A thinner blue path shows the internal swings inside each external leg. Internal structure promotes only when price breaks and accepts above the external high.</desc>
+
+  <rect width="960" height="520" rx="24" fill="#0b1220"/>
+
+  <!-- Plot grid -->
+  <g stroke="#223047" stroke-width="1">
+    <path d="M70 110H900M70 200H900M70 290H900M70 380H900"/>
+    <path d="M150 80V430M300 80V430M450 80V430M600 80V430M750 80V430M900 80V430"/>
+  </g>
+
+  <!-- Legend -->
+  <g font-family="Inter,Arial,sans-serif" font-size="15">
+    <path d="M610 42H655" stroke="#38e08f" stroke-width="8" stroke-linecap="round"/>
+    <text x="667" y="48" fill="#f8fafc">External swings</text>
+    <path d="M790 42H835" stroke="#5b8cff" stroke-width="4" stroke-linecap="round"/>
+    <text x="847" y="48" fill="#f8fafc">Internal</text>
+  </g>
+
+  <!-- External structure skeleton -->
+  <path d="M90 390L430 135L665 340L875 80" fill="none" stroke="#38e08f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".38"/>
+
+  <!-- Detailed internal path -->
+  <path d="M90 390
+           L145 315 L195 345
+           L250 250 L305 285
+           L365 185 L430 135
+           L475 220 L520 190
+           L565 285 L610 250
+           L665 340
+           L710 270 L755 300
+           L805 205 L845 225
+           L875 80"
+        fill="none" stroke="#5b8cff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- External reference -->
+  <path d="M405 135H900" stroke="#f4c95d" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="705" y="122" fill="#f4c95d" font-family="Inter,Arial,sans-serif" font-size="15">EXTERNAL HIGH REFERENCE</text>
+
+  <!-- External pivots -->
+  <g stroke="#0b1220" stroke-width="4">
+    <circle cx="90" cy="390" r="10" fill="#38e08f"/>
+    <circle cx="430" cy="135" r="10" fill="#38e08f"/>
+    <circle cx="665" cy="340" r="10" fill="#38e08f"/>
+    <circle cx="875" cy="80" r="10" fill="#38e08f"/>
+  </g>
+
+  <!-- Labels and leaders -->
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="72" y="425" fill="#f8fafc" font-size="18" font-weight="700">External low</text>
+    <text x="370" y="105" fill="#f8fafc" font-size="18" font-weight="700">External high</text>
+    <text x="590" y="382" fill="#f8fafc" font-size="18" font-weight="700">External higher low</text>
+    <text x="780" y="70" fill="#38e08f" font-size="18" font-weight="700">Promotion</text>
+
+    <path d="M225 365L275 315" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="120" y="375" fill="#94a3b8" font-size="15">Internal HH/HL sequence</text>
+
+    <path d="M540 320L575 285" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="445" y="337" fill="#94a3b8" font-size="15">Internal reversal</text>
+    <text x="445" y="357" fill="#94a3b8" font-size="14">External trend remains intact</text>
+
+    <text x="685" y="455" fill="#94a3b8" font-size="15">Promotion requires</text>
+    <text x="685" y="477" fill="#f8fafc" font-size="15" font-weight="700">break + acceptance</text>
+  </g>
 </svg>
