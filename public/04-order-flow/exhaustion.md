@@ -7,6 +7,8 @@ icon: battery-quarter
 
 Exhaustion is a decline in aggressive participation as price reaches an extreme. Unlike absorption, where strong aggression is stopped by passive liquidity, exhaustion reflects insufficient initiative to continue the auction.
 
+![Exhaustion shows declining aggressive effort at a price extreme](../.gitbook/assets/diagrams/effort-result.svg)
+
 ## Typical evidence
 
 - Successive pushes cover less distance

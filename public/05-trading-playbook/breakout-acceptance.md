@@ -7,6 +7,8 @@ icon: arrow-up-right-dots
 
 The Breakout Acceptance setup enters after the market leaves balance and establishes trade in the new area. Crossing the boundary identifies an attempt; acceptance qualifies the trade.
 
+![Rejected sweep compared with accepted breakout](../.gitbook/assets/diagrams/liquidity-sweep-acceptance.svg)
+
 ## Conditions
 
 - A mature, clearly bounded balance

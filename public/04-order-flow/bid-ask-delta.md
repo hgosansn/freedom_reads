@@ -9,6 +9,8 @@ Trades executed at the ask are classified as aggressive buying; trades at the bi
 
 Delta measures aggression, not net capital entering the market. Every trade has a buyer and seller. Its value comes from comparing aggressive effort with price result.
 
+![Effective aggression, absorption, and exhaustion as effort versus price result](../.gitbook/assets/diagrams/effort-result.svg)
+
 ## Effort versus result
 
 - Positive delta with rising price: buying is effective.

@@ -7,6 +7,8 @@ icon: chart-bar
 
 A **high-volume node (HVN)** is a local concentration of traded volume within the selected profile. It records past facilitation and tends to slow trade when the same auction remains relevant. A **low-volume node (LVN)** is a local volume trough produced by rejection or efficient traversal.
 
+![Two high-volume distributions separated by a low-volume node](../.gitbook/assets/diagrams/hvn-lvn-distribution.svg)
+
 ## Expected behavior
 
 At an HVN, prior facilitation supports two-sided execution and rotation. At an LVN, price either rejects or traverses toward the next distribution. Profile origin, direction of approach, and current flow determine which response is tradable.

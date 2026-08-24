@@ -7,6 +7,8 @@ icon: droplet
 
 Liquidity is the market's capacity to absorb transactions without excessive price impact. In chart analysis, the term also refers to areas with probable order concentration: prior highs and lows, equal extremes, range edges, liquidation clusters, and high-volume reference points.
 
+![Liquidity sweep and rejection compared with breakout acceptance](../.gitbook/assets/diagrams/liquidity-sweep-acceptance.svg)
+
 ## Why price seeks liquidity
 
 Large executions require counterparties. Stops above highs become marketable buy orders; stops below lows become marketable sell orders. Breakout entries add flow at the same prices. The resulting transaction burst can clear the path for continuation or transfer inventory to a participant fading the break.

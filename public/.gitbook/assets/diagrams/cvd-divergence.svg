@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Price and cumulative volume delta divergence</title>
+  <desc id="desc">Price makes a higher high while cumulative volume delta makes a lower high, identifying ineffective aggressive buying that still requires a price trigger.</desc>
+  <rect width="960" height="460" rx="24" fill="#0b1220"/>
+  <path d="M75 220H900" stroke="#243247" stroke-width="2"/>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700"><text x="75" y="45">PRICE</text><text x="75" y="255">CVD</text></g>
+  <path d="M80 185L180 120L280 175L390 85L500 155L620 65L740 125L880 40" fill="none" stroke="#38e08f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 405L180 325L280 390L390 300L500 370L620 318L740 395L880 350" fill="none" stroke="#f4c95d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M390 70L880 25" stroke="#38e08f" stroke-width="2" stroke-dasharray="8 7"/><path d="M390 285L880 335" stroke="#f4c95d" stroke-width="2" stroke-dasharray="8 7"/>
+  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="15"><text x="650" y="50">Higher price high</text><text x="650" y="325">Lower CVD high</text><text x="600" y="438">Divergence is context; price still supplies the trigger</text></g>
+</svg>

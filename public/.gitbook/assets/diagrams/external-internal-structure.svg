@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">External and internal market structure</title>
+  <desc id="desc">Small internal rotations remain contained by the external swing high and low until price accepts beyond a boundary.</desc>
+  <rect width="960" height="420" rx="24" fill="#0b1220"/>
+  <rect x="75" y="75" width="810" height="265" rx="10" fill="#111c2f" stroke="#f4c95d" stroke-width="3" stroke-dasharray="10 8"/>
+  <path d="M95 285L190 125L260 230L335 150L420 270L505 175L585 245L660 135L745 225L855 105" fill="none" stroke="#38e08f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif"><text x="75" y="55" font-size="18">External high</text><text x="75" y="372" font-size="18">External low</text><text x="350" y="205" font-size="20">Internal rotations</text></g>
+  <path d="M690 95L700 60L710 95" fill="none" stroke="#38e08f" stroke-width="4"/>
+  <text x="675" y="60" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="16">Promotes after acceptance</text>
+</svg>

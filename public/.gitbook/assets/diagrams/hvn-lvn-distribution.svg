@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">High-volume and low-volume nodes in a double distribution</title>
+  <desc id="desc">Two high-volume distributions are separated by a low-volume node that acts as a rejection or traversal zone.</desc>
+  <rect width="960" height="420" rx="24" fill="#0b1220"/>
+  <path d="M125 350C170 340 175 300 210 275C250 245 330 260 360 215C385 178 345 150 325 115C305 80 350 55 430 70L430 350Z" fill="#5b8cff" opacity=".7"/>
+  <path d="M535 350C575 330 565 285 600 255C635 225 745 255 790 205C825 165 770 130 755 95C740 60 790 45 855 62L855 350Z" fill="#38e08f" opacity=".65"/>
+  <rect x="430" y="65" width="105" height="285" fill="#f4c95d" opacity=".12" stroke="#f4c95d" stroke-dasharray="8 7"/>
+  <path d="M80 350H900" stroke="#94a3b8" stroke-width="2"/>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700"><text x="220" y="385">HVN 1</text><text x="448" y="385">LVN</text><text x="680" y="385">HVN 2</text></g>
+  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="15"><text x="175" y="45">Facilitation</text><text x="425" y="45">Reject or traverse</text><text x="735" y="35">Facilitation</text></g>
+</svg>

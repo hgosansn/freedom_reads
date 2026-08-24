@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Failed auction above a range</title>
+  <desc id="desc">Price leaves a balanced range, triggers breakout flow, fails to build volume outside, re-enters, and rotates toward point of control.</desc>
+  <rect width="960" height="420" rx="24" fill="#0b1220"/>
+  <rect x="70" y="155" width="820" height="190" rx="10" fill="#2563eb" opacity=".12" stroke="#5b8cff" stroke-width="2"/>
+  <path d="M70 155H890" stroke="#f4c95d" stroke-width="2" stroke-dasharray="8 7"/>
+  <path d="M70 255H890" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M85 295L170 210L255 280L340 185L430 265L520 165L595 82L650 135L710 205L790 250L875 290" fill="none" stroke="#ef5b5b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="595" cy="82" r="8" fill="#ef5b5b"/><circle cx="710" cy="205" r="8" fill="#f4c95d"/>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="17"><text x="535" y="58">Outside test</text><text x="650" y="230">Re-entry</text><text x="770" y="275">POC target</text></g>
+  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="14"><text x="72" y="145">RANGE HIGH</text><text x="72" y="247">POC</text><text x="620" y="105">No value builds</text></g>
+</svg>

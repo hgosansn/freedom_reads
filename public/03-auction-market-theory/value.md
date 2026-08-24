@@ -7,6 +7,8 @@ icon: bullseye
 
 Value is the price region that concentrated two-sided trade during the selected auction. A conventional volume-profile value area contains about 70% of the profile's volume. The percentage is a calculation parameter and has no claim to intrinsic fair value.
 
+![Volume profile with VAH, VAL, POC, HVN, and LVN references](../.gitbook/assets/diagrams/value-profile-anatomy.svg)
+
 ## Reference selection
 
 The profile period defines the question. Prior-day, current-session, composite-range, and event-anchored profiles describe different auctions. Select the period from the decision horizon and keep it fixed through review.

@@ -7,6 +7,8 @@ icon: chart-area
 
 Cumulative volume delta (CVD) is the running sum of ask volume minus bid volume. Rising CVD indicates net aggressive buying over the selected window; falling CVD indicates net aggressive selling.
 
+![Price makes a higher high while CVD makes a lower high](../.gitbook/assets/diagrams/cvd-divergence.svg)
+
 ## Useful comparisons
 
 - **Price and CVD rise:** aggressive buying supports the move.

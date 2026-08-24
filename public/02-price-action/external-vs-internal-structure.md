@@ -7,6 +7,8 @@ icon: boxes-stacked
 
 **External structure** defines the swing boundaries that contain the current higher-order auction. **Internal structure** describes the smaller rotations inside those boundaries. Confusing the two turns ordinary pullbacks into false reversal signals.
 
+![Internal rotations contained within external swing boundaries](../.gitbook/assets/diagrams/external-internal-structure.svg)
+
 ## A top-down method
 
 1. Select the decision timeframe used to hold the trade.

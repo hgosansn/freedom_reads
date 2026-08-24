@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Liquidity sweep compared with acceptance</title>
+  <desc id="desc">The left panel shows price crossing equal highs and returning below. The right panel shows price crossing and building trade above.</desc>
+  <rect width="960" height="420" rx="24" fill="#0b1220"/>
+  <path d="M480 45V375" stroke="#243247" stroke-width="2"/>
+  <g font-family="Inter,Arial,sans-serif"><text x="70" y="50" fill="#f8fafc" font-size="22" font-weight="700">Sweep and reject</text><text x="540" y="50" fill="#f8fafc" font-size="22" font-weight="700">Consume and accept</text></g>
+  <g stroke="#f4c95d" stroke-width="2" stroke-dasharray="8 7"><path d="M70 145H420"/><path d="M540 145H890"/></g>
+  <g fill="#f4c95d" font-family="Inter,Arial,sans-serif" font-size="15"><text x="70" y="132">Equal highs / buy stops</text><text x="540" y="132">Range high</text></g>
+  <path d="M80 310L150 205L225 270L295 150L340 92L375 205L430 285" fill="none" stroke="#ef5b5b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M550 310L620 220L690 270L750 150L790 92L835 122L885 85" fill="none" stroke="#38e08f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="748" y="78" width="137" height="76" rx="10" fill="#38e08f" opacity=".12" stroke="#38e08f"/>
+  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="16"><text x="215" y="355">Fast return below</text><text x="700" y="185">Volume builds above</text></g>
+</svg>

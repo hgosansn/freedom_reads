@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Order-flow effort compared with price result</title>
+  <desc id="desc">Effective aggression displaces price. Absorption shows high aggression with little progress. Exhaustion shows declining aggression at the extreme.</desc>
+  <rect width="960" height="440" rx="24" fill="#0b1220"/>
+  <path d="M320 55V390M640 55V390" stroke="#243247" stroke-width="2"/>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700"><text x="55" y="48">Effective aggression</text><text x="375" y="48">Absorption</text><text x="715" y="48">Exhaustion</text></g>
+  <g fill="#38e08f"><rect x="65" y="300" width="28" height="65"/><rect x="110" y="255" width="28" height="110"/><rect x="155" y="205" width="28" height="160"/><rect x="200" y="130" width="28" height="235"/><rect x="245" y="80" width="28" height="285"/></g>
+  <path d="M55 320L280 80" fill="none" stroke="#f8fafc" stroke-width="5"/>
+  <g fill="#ef5b5b"><rect x="365" y="280" width="28" height="85"/><rect x="410" y="220" width="28" height="145"/><rect x="455" y="155" width="28" height="210"/><rect x="500" y="90" width="28" height="275"/><rect x="545" y="65" width="28" height="300"/></g>
+  <path d="M355 175L585 150" fill="none" stroke="#f8fafc" stroke-width="5"/>
+  <g fill="#f4c95d"><rect x="685" y="80" width="28" height="285"/><rect x="730" y="125" width="28" height="240"/><rect x="775" y="185" width="28" height="180"/><rect x="820" y="245" width="28" height="120"/><rect x="865" y="305" width="28" height="60"/></g>
+  <path d="M675 250L900 120" fill="none" stroke="#f8fafc" stroke-width="5"/>
+  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="14"><text x="65" y="407">Aggression and price expand</text><text x="365" y="407">Effort rises; price stalls</text><text x="685" y="407">Effort fades at extreme</text></g>
+</svg>

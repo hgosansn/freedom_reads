@@ -7,6 +7,8 @@ icon: chart-line
 
 Structure is the sequence of auctions left by price. Higher highs and higher lows describe an uptrend; the actionable information is which swing caused displacement, which liquidity traded, and whether price established value beyond the broken pivot.
 
+![A higher low, external-high break, retest, and acceptance sequence](../.gitbook/assets/diagrams/market-structure.svg)
+
 ## Define swings consistently
 
 Specify the pivot rule. A local swing high might require two lower highs on each side. A structural swing can require a close through the opposing pivot, range expansion above a defined volatility threshold, and acceptance beyond it. Fix the definition for the entire sample.

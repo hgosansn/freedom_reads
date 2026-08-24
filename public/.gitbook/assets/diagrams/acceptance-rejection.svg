@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Acceptance and rejection at a reference price</title>
+  <desc id="desc">Acceptance spends time and volume above the reference. Rejection tests above and displaces back below.</desc>
+  <rect width="960" height="420" rx="24" fill="#0b1220"/>
+  <path d="M480 45V375" stroke="#243247" stroke-width="2"/>
+  <g stroke="#f4c95d" stroke-width="2" stroke-dasharray="8 7"><path d="M70 220H420"/><path d="M540 220H890"/></g>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif"><text x="70" y="50" font-size="22" font-weight="700">Acceptance</text><text x="540" y="50" font-size="22" font-weight="700">Rejection</text></g>
+  <rect x="125" y="86" width="250" height="122" rx="12" fill="#38e08f" opacity=".12" stroke="#38e08f"/>
+  <path d="M80 315L145 205L195 160L250 195L305 130L365 180L420 112" fill="none" stroke="#38e08f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M550 315L620 225L680 105L720 185L790 260L885 325" fill="none" stroke="#ef5b5b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="16"><text x="125" y="80">Time + volume above</text><text x="680" y="95">Brief test</text><text x="745" y="350">Displacement away</text></g>
+  <text x="70" y="242" fill="#f4c95d" font-family="Inter,Arial,sans-serif" font-size="14">REFERENCE</text><text x="540" y="242" fill="#f4c95d" font-family="Inter,Arial,sans-serif" font-size="14">REFERENCE</text>
+</svg>

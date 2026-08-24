@@ -7,6 +7,8 @@ icon: right-left
 
 Acceptance means the market is willing to conduct sustained two-sided trade at a price. Rejection means the auction tests an area and rapidly moves away. These are processes, not single-candle patterns.
 
+![Acceptance builds time and volume beyond a reference while rejection displaces away](../.gitbook/assets/diagrams/acceptance-rejection.svg)
+
 ## Evidence of acceptance
 
 - Time spent beyond the reference

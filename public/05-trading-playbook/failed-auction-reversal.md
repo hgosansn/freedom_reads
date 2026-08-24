@@ -7,6 +7,8 @@ icon: rotate-left
 
 The Failed Auction Reversal trades re-entry into a prior auction after an outside test fails to establish value. Entry follows confirmed failure; the first excursion supplies location only.
 
+![Failed auction reversal sequence from outside test to rotation](../.gitbook/assets/diagrams/failed-auction.svg)
+
 ## Conditions
 
 - A clear prior range, value edge, session extreme, or composite boundary

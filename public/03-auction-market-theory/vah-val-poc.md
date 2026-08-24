@@ -7,6 +7,8 @@ icon: lines-leaning
 
 **VAH** is the upper boundary of the chosen value area, **VAL** is the lower boundary, and **POC** is the price with the greatest traded volume in that profile. Together they summarize the auction's distribution.
 
+![Annotated volume-profile anatomy](../.gitbook/assets/diagrams/value-profile-anatomy.svg)
+
 ## Functional roles
 
 - **VAH / VAL:** decision zones between accepted value and lower-volume territory.

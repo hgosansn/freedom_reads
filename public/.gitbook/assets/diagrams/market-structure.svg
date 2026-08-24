@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Market structure and confirmed continuation</title>
+  <desc id="desc">Price forms a higher low, breaks the prior external high with displacement, then accepts above it.</desc>
+  <rect width="960" height="420" rx="24" fill="#0b1220"/>
+  <g stroke="#243247" stroke-width="1"><path d="M70 90H900M70 170H900M70 250H900M70 330H900"/><path d="M150 55V360M310 55V360M470 55V360M630 55V360M790 55V360"/></g>
+  <path d="M80 310L205 185L300 265L430 120L530 220L650 78L740 135L885 62" fill="none" stroke="#38e08f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M430 55V355" stroke="#f4c95d" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="205" cy="185" r="7" fill="#f8fafc"/><circle cx="300" cy="265" r="7" fill="#f8fafc"/><circle cx="430" cy="120" r="7" fill="#f4c95d"/><circle cx="530" cy="220" r="7" fill="#f8fafc"/><circle cx="650" cy="78" r="7" fill="#38e08f"/>
+  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="18"><text x="168" y="160">Swing high</text><text x="260" y="300">Higher low</text><text x="380" y="390">External high</text><text x="505" y="254">Retest</text><text x="674" y="103">Acceptance</text></g>
+  <text x="70" y="42" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="16">Break + hold above the external pivot confirms continuation</text>
+</svg>

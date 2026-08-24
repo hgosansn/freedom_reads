@@ -7,6 +7,8 @@ icon: shield
 
 Absorption occurs when substantial aggressive flow trades into resting liquidity but price makes limited progress. At a high, repeated market buying may be filled by a large passive seller; at a low, aggressive selling may meet a passive buyer.
 
+![Absorption shows rising aggressive effort with stalled price progress](../.gitbook/assets/diagrams/effort-result.svg)
+
 ## Evidence stack
 
 Look for several features together:

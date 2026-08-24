@@ -7,6 +7,8 @@ icon: scale-balanced
 
 Markets alternate between **balance**, where buyers and sellers agree enough to trade around a fair area, and **imbalance**, where one side is urgent enough to move price in search of new counterparties.
 
+![Balance transitions into directional imbalance](../.gitbook/assets/diagrams/balance-imbalance.svg)
+
 ## Recognizing the state
 
 Balance tends to show overlapping candles, two-sided rotations, contained range, and a stable developing point of control. Imbalance shows directional range expansion, limited overlap, shallow counter-rotation, and migrating value.

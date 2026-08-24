@@ -7,6 +7,8 @@ icon: arrow-rotate-left
 
 A failed auction occurs when price attempts to leave an established area, finds insufficient participation, and returns. The failure matters because traders who entered for continuation may be forced to exit, reinforcing the move back through the old range.
 
+![Outside test, failed acceptance, re-entry, and rotation toward POC](../.gitbook/assets/diagrams/failed-auction.svg)
+
 ## Anatomy
 
 1. A known boundary or extreme is tested.
