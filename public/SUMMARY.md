@@ -48,3 +48,7 @@
 * [Pre-market](07-checklists/pre-market.md)
 * [Pre-trade](07-checklists/pre-trade.md)
 * [Post-trade review](07-checklists/post-trade-review.md)
+
+## 08. Rules
+
+* [Make it stop me out](08-rules/make-it-stop-me-out.md)
