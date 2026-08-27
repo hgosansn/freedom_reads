@@ -1,11 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
-  <title id="title">High-volume and low-volume nodes in a double distribution</title>
-  <desc id="desc">Two high-volume distributions are separated by a low-volume node that acts as a rejection or traversal zone.</desc>
-  <rect width="960" height="420" rx="24" fill="#0b1220"/>
-  <path d="M125 350C170 340 175 300 210 275C250 245 330 260 360 215C385 178 345 150 325 115C305 80 350 55 430 70L430 350Z" fill="#5b8cff" opacity=".7"/>
-  <path d="M535 350C575 330 565 285 600 255C635 225 745 255 790 205C825 165 770 130 755 95C740 60 790 45 855 62L855 350Z" fill="#38e08f" opacity=".65"/>
-  <rect x="430" y="65" width="105" height="285" fill="#f4c95d" opacity=".12" stroke="#f4c95d" stroke-dasharray="8 7"/>
-  <path d="M80 350H900" stroke="#94a3b8" stroke-width="2"/>
-  <g fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700"><text x="220" y="385">HVN 1</text><text x="448" y="385">LVN</text><text x="680" y="385">HVN 2</text></g>
-  <g fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="15"><text x="175" y="45">Facilitation</text><text x="425" y="45">Reject or traverse</text><text x="735" y="35">Facilitation</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">HVNs and an LVN in a double-distribution volume profile</title>
+  <desc id="desc">A horizontal volume-at-price histogram has two broad high-volume peaks separated by a narrow low-volume trough. High-volume nodes indicate acceptance; the low-volume node indicates rejection or fast traversal.</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#60a5fa"/></marker>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#f4c95d"/></marker>
+  </defs>
+  <rect width="960" height="520" rx="24" fill="#0b1220"/>
+  <text x="52" y="54" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">DOUBLE-DISTRIBUTION PROFILE</text>
+  <text x="52" y="79" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="15">Horizontal bar length = traded volume at each price</text>
+  <rect x="288" y="98" width="412" height="135" rx="12" fill="#2563eb" opacity=".09"/>
+  <rect x="288" y="285" width="412" height="135" rx="12" fill="#2563eb" opacity=".09"/>
+  <rect x="288" y="234" width="412" height="50" rx="8" fill="#f4c95d" opacity=".08"/>
+  <path d="M288 100V432" stroke="#64748b" stroke-width="2"/>
+  <path d="M279 112H288M279 154H288M279 196H288M279 238H288M279 280H288M279 322H288M279 364H288M279 406H288" stroke="#64748b" stroke-width="2"/>
+  <g fill="#3b82f6">
+    <rect x="288" y="104" width="84" height="10" rx="2" opacity=".54"/><rect x="288" y="118" width="132" height="10" rx="2" opacity=".58"/><rect x="288" y="132" width="208" height="10" rx="2" opacity=".64"/><rect x="288" y="146" width="302" height="10" rx="2" opacity=".82"/><rect x="288" y="160" width="354" height="10" rx="2"/><rect x="288" y="174" width="326" height="10" rx="2" opacity=".92"/><rect x="288" y="188" width="268" height="10" rx="2" opacity=".76"/><rect x="288" y="202" width="198" height="10" rx="2" opacity=".66"/><rect x="288" y="216" width="132" height="10" rx="2" opacity=".58"/><rect x="288" y="230" width="82" height="10" rx="2" opacity=".5"/>
+  </g>
+  <g fill="#f4c95d">
+    <rect x="288" y="244" width="48" height="10" rx="2" opacity=".9"/><rect x="288" y="258" width="38" height="10" rx="2"/><rect x="288" y="272" width="56" height="10" rx="2" opacity=".9"/>
+  </g>
+  <g fill="#3b82f6">
+    <rect x="288" y="286" width="96" height="10" rx="2" opacity=".52"/><rect x="288" y="300" width="158" height="10" rx="2" opacity=".6"/><rect x="288" y="314" width="236" height="10" rx="2" opacity=".7"/><rect x="288" y="328" width="318" height="10" rx="2" opacity=".9"/><rect x="288" y="342" width="372" height="10" rx="2"/><rect x="288" y="356" width="346" height="10" rx="2" opacity=".94"/><rect x="288" y="370" width="286" height="10" rx="2" opacity=".8"/><rect x="288" y="384" width="212" height="10" rx="2" opacity=".68"/><rect x="288" y="398" width="146" height="10" rx="2" opacity=".6"/><rect x="288" y="412" width="88" height="10" rx="2" opacity=".52"/>
+  </g>
+  <path d="M288 165H674" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="6 6"/><path d="M288 263H674" stroke="#f4c95d" stroke-width="1.5" stroke-dasharray="6 6"/><path d="M288 347H692" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="52" y="161" fill="#60a5fa" font-size="20" font-weight="700">HVN</text><text x="52" y="184" fill="#cbd5e1" font-size="15">Local volume peak</text><text x="52" y="204" fill="#94a3b8" font-size="14">Acceptance · rotation</text><path d="M184 165H278" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <text x="52" y="258" fill="#f4c95d" font-size="20" font-weight="700">LVN</text><text x="52" y="281" fill="#cbd5e1" font-size="15">Local volume trough</text><text x="52" y="301" fill="#94a3b8" font-size="14">Reject or traverse</text><path d="M184 263H278" stroke="#f4c95d" stroke-width="2" marker-end="url(#arrow-amber)"/>
+    <text x="52" y="343" fill="#60a5fa" font-size="20" font-weight="700">HVN</text><text x="52" y="366" fill="#cbd5e1" font-size="15">Local volume peak</text><text x="52" y="386" fill="#94a3b8" font-size="14">Acceptance · rotation</text><path d="M184 347H278" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+    <text x="267" y="112" fill="#94a3b8" font-size="13" text-anchor="end">HIGH</text><text x="267" y="422" fill="#94a3b8" font-size="13" text-anchor="end">LOW</text><text x="288" y="461" fill="#94a3b8" font-size="14">0</text><text x="660" y="461" fill="#94a3b8" font-size="14" text-anchor="end">MORE VOLUME →</text>
+  </g>
+  <g transform="translate(734 122)" font-family="Inter,Arial,sans-serif">
+    <rect width="178" height="298" rx="16" fill="#111c2e" stroke="#24344d"/><text x="20" y="36" fill="#f8fafc" font-size="16" font-weight="700">TYPICAL REVISIT</text>
+    <circle cx="25" cy="76" r="5" fill="#60a5fa"/><text x="42" y="81" fill="#cbd5e1" font-size="14">HVN</text><path d="M25 101C62 113 93 91 131 103" fill="none" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow-blue)"/><text x="20" y="137" fill="#94a3b8" font-size="13">Price often slows</text><text x="20" y="156" fill="#94a3b8" font-size="13">and rotates.</text>
+    <path d="M20 180H158" stroke="#24344d"/>
+    <circle cx="25" cy="211" r="5" fill="#f4c95d"/><text x="42" y="216" fill="#cbd5e1" font-size="14">LVN</text><path d="M25 240H139" fill="none" stroke="#f4c95d" stroke-width="2.5" marker-end="url(#arrow-amber)"/><text x="20" y="278" fill="#94a3b8" font-size="13">Fast through or away.</text>
+  </g>
+  <text x="52" y="487" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13">Nodes are local zones within the selected profile—not automatic support or resistance.</text>
 </svg>
