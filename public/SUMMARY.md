@@ -2,6 +2,13 @@
 
 * [Market Reading System](README.md)
 
+## 00. Start Here
+
+* [Start Here](00-start-here/README.md)
+* [Glossary](00-start-here/glossary.md)
+* [Planning and Journal Templates](00-start-here/templates.md)
+* [Assessment Rubric](00-start-here/assessment-rubric.md)
+
 ## 01. Foundations
 
 * [How markets move](01-foundations/how-markets-move.md)

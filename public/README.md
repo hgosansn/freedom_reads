@@ -5,6 +5,8 @@ icon: chart-candlestick
 
 # Market Reading System
 
+New readers should begin with [Start Here](00-start-here/README.md), then move through the modules in order. Use the glossary, templates, and assessment gate before any live deployment.
+
 Price action describes the market's path. Auction theory locates that path relative to value and prior distributions. Order flow tests whether aggressive participation is producing price progress. Execution converts the combined read into defined risk.
 
 The course integrates those layers into a decision system for liquid crypto spot and perpetual markets.
