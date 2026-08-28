@@ -52,3 +52,7 @@
 ## 08. Rules
 
 * [Make it stop me out](08-rules/make-it-stop-me-out.md)
+
+## 09. Quotes
+
+* [It's okay to be wrong](09-quotes/its-okay-to-be-wrong.md)

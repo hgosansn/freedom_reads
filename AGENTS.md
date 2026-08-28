@@ -31,7 +31,7 @@ crypto market-reading and trade-execution course published at
 
 - `public/README.md` is the GitBook landing page and course overview.
 - `public/SUMMARY.md` defines the published navigation and page order.
-- `public/01-foundations/` through `public/08-rules/` contain the curriculum.
+- `public/01-foundations/` through `public/09-quotes/` contain the curriculum.
 - `public/.gitbook/assets/diagrams/` contains the SVG diagrams referenced by
   course pages.
 - `assets/logo.png` is a repository-level brand asset and is not currently
@@ -52,23 +52,28 @@ The curriculum is organized as follows:
 6. Execution Framework: entry, invalidation, targets, and management.
 7. Checklists: pre-market, pre-trade, and post-trade review.
 8. Rules: the "Make it stop me out" execution rule.
+9. Quotes: researched trading maxims translated into operational rules.
 
 ## Current Progress
 
 Snapshot as of 2026-08-28:
 
-- The navigated course contains 27 curriculum pages across eight modules, plus
+- The navigated course contains 28 curriculum pages across nine modules, plus
   the GitBook landing page.
 - All pages listed in `public/SUMMARY.md` exist; no TODO, TBD, FIXME, WIP, draft,
   or placeholder markers are present in the repository content.
 - Ten SVG diagrams support the course and are used in 15 page placements.
 - The latest completed work added the Rules module and corrected the HVN/LVN
   volume-profile illustration.
+- Repository housekeeping now ignores macOS `.DS_Store` files and no longer
+  tracks the previously committed root copy.
+- The Quotes module now begins with a researched treatment of “It’s okay to be
+  wrong; it’s not okay to stay wrong.”
 
 ## Pending Work
 
-- Push the local documentation commits to `origin/main` and confirm the GitBook
-  deployment reflects them.
+- Confirm the GitBook deployment reflects the latest Quotes and repository
+  housekeeping changes.
 - Decide whether `assets/logo.png` should be wired into the repository README,
   GitBook customization, or both.
 
