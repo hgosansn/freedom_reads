@@ -16,6 +16,8 @@ related versions have circulated among professional traders for decades.
 
 The attribution is uncertain. The principle is not.
 
+This page is a decision principle, not a claim that every adverse move proves the thesis wrong. The written invalidation condition remains the authority.
+
 ## Wrong versus staying wrong
 
 **Being wrong** is a forecasting error. Markets are probabilistic, so a valid

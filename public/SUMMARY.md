@@ -90,7 +90,7 @@
 * [Pre-trade](10-checklists/pre-trade.md)
 * [Post-trade review](10-checklists/post-trade-review.md)
 
-## 11. Quotes
+## 11. Principles and Psychology
 
-* [Make it stop me out](11-quotes/make-it-stop-me-out.md)
-* [It's okay to be wrong](11-quotes/its-okay-to-be-wrong.md)
+* [Make it stop me out](11-principles-psychology/make-it-stop-me-out.md)
+* [It's okay to be wrong](11-principles-psychology/its-okay-to-be-wrong.md)

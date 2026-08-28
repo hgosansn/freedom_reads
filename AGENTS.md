@@ -31,7 +31,7 @@ crypto market-reading and trade-execution course published at
 
 - `public/README.md` is the GitBook landing page and course overview.
 - `public/SUMMARY.md` defines the published navigation and page order.
-- `public/01-foundations/` through `public/08-quotes/` contain the curriculum.
+- `public/00-start-here/` through `public/11-principles-psychology/` contain the curriculum.
 - `public/.gitbook/assets/diagrams/` contains the SVG diagrams referenced by
   course pages.
 - `assets/logo.png` is a repository-level brand asset and is not currently
@@ -42,6 +42,7 @@ crypto market-reading and trade-execution course published at
 
 The curriculum is organized as follows:
 
+0. Start Here: prerequisites, glossary, templates, and assessment.
 1. Foundations: market mechanics and the trading decision hierarchy.
 2. Price Action: structure, liquidity, acceptance, and rejection.
 3. Auction Market Theory: balance, value, profile references, and failed
@@ -49,39 +50,49 @@ The curriculum is organized as follows:
 4. Order Flow: bid/ask delta, absorption, exhaustion, trapped traders, and CVD.
 5. Entry Model Library: balance-edge fade, failed-auction reversal,
    breakout-acceptance retest, trend pullback, and LVN rejection/reclaim.
-6. Execution Framework: entry, invalidation, targets, and management.
-7. Checklists: pre-market, pre-trade, and post-trade review.
-8. Quotes: researched trading maxims, including “Make it stop me out,”
-   translated into operational rules.
+6. Risk Framework: position, portfolio, drawdown, operational, and counterparty
+   controls.
+7. Crypto Derivatives Mechanics: contracts, prices, funding, liquidation,
+   margin, and collateral.
+8. Execution Framework: entry, invalidation, targets, and management.
+9. Research and Validation: experimental design, uncertainty, bias controls,
+   and forward testing.
+10. Checklists: pre-market, pre-trade, and post-trade review.
+11. Principles and Psychology: researched maxims translated into operational
+    rules.
 
 ## Current Progress
 
 Snapshot as of 2026-08-28:
 
-- The navigated course contains 31 curriculum pages across eight modules, plus
+- The course contains 57 curriculum pages across twelve numbered modules, plus
   the GitBook landing page.
 - All pages listed in `public/SUMMARY.md` exist; no TODO, TBD, FIXME, WIP, draft,
   or placeholder markers are present in the repository content.
 - Fifteen SVG diagrams support the course and are used in 18 page placements.
 - Repository housekeeping now ignores macOS `.DS_Store` files and no longer
   tracks the previously committed root copy.
-- The Quotes module now begins with a researched treatment of “It’s okay to be
-  wrong; it’s not okay to stay wrong.”
-- The Quotes release has been pushed to `origin/main` and confirmed live on the
-  published GitBook site.
-- The former single-page Rules module has been consolidated into Quotes, keeping
-  the course navigation contiguous at eight modules.
 - The Trading Playbook is now a five-model Entry Model Library. Each model
   defines its regime, reference, trigger, limit calculation, invalidation,
   cancellation, targets, validation fields, and a precise annotated SVG.
+- Every entry variant now uses a versioned Frozen Model Specification, with five
+  worked cases covering fills, non-fills, cancellation, and regime transition.
+- New Risk Framework, Crypto Derivatives Mechanics, and Research and Validation
+  modules connect order pricing to account controls and evidence standards.
+- Start Here now supplies prerequisites, a controlled glossary, reusable
+  templates, assessment criteria, and a deployment gate.
+- Quotes has become Principles and Psychology. Its two maxims now reinforce
+  predefined invalidation and management instead of outcome-driven discretion.
+- Published Markdown and SVG content contains no em dashes.
 
 ## Pending Work
 
 - Decide whether `assets/logo.png` should be wired into the repository README,
   GitBook customization, or both.
-- Calibrate the library's illustrative entry offsets, trigger expiry, and
-  acceptance rules with instrument- and venue-specific replay plus live fill
-  data before treating them as production parameters.
+- Calibrate a separate Frozen Model Specification for every intended venue,
+  product, session, and model variant using replay and forward fill data.
+- Push the new topic commits and verify navigation, rendering, and links on the
+  published GitBook site.
 
 Update both **Current Progress** and **Pending Work** after every repository work
 session. Record completed items in Current Progress, remove them from Pending

@@ -40,6 +40,7 @@ Later decisions remain conditional on the earlier layers. A trigger cannot repai
 <tr><td><i class="fa-sliders"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="08-execution-framework/entry.md">Build execution</a></td></tr>
 <tr><td><i class="fa-flask"></i></td><td><strong>Research and Validation</strong></td><td>Test frozen models, costs, uncertainty, and deployment gates.</td><td><a href="09-research-validation/README.md">Validate evidence</a></td></tr>
 <tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="10-checklists/pre-market.md">Use checklists</a></td></tr>
+<tr><td><i class="fa-brain"></i></td><td><strong>Principles and Psychology</strong></td><td>Translate trading maxims into observable process rules.</td><td><a href="11-principles-psychology/its-okay-to-be-wrong.md">Apply principles</a></td></tr>
 </tbody></table>
 
 ## How to use the course
