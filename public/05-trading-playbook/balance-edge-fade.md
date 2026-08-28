@@ -5,6 +5,10 @@ icon: arrows-left-right
 
 # Balance-edge fade
 
+{% hint style="info" %}
+Freeze this variant's frames, edge zone, entry offset, stop trigger source, cancellation window, and targets in the [Frozen Model Specification](model-specification.md) before testing it.
+{% endhint %}
+
 The balance-edge fade is the library's primary location-first model. It buys a
 qualified lower edge or sells a qualified upper edge while the market continues
 to facilitate two-sided trade inside a stable distribution.

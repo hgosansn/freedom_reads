@@ -5,6 +5,10 @@ icon: arrow-trend-up
 
 # Trend Pullback
 
+{% hint style="info" %}
+Freeze the trend rule, pullback zone, entry variant, retest window, offset, stop trigger source, cancellation, and targets in the [Frozen Model Specification](model-specification.md) before testing it.
+{% endhint %}
+
 The Trend Pullback joins an accepted directional auction after a countertrend
 rotation reaches a predefined reference. The setup requires evidence that the
 rotation is corrective and a structural point that invalidates continuation.

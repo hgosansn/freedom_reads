@@ -5,6 +5,10 @@ icon: wave-square
 
 # LVN rejection / reclaim
 
+{% hint style="info" %}
+Freeze the profile anchor, LVN zone, rejection and reclaim tests, retest window, offset, stop trigger source, cancellation, and targets in the [Frozen Model Specification](model-specification.md) before testing this variant.
+{% endhint %}
+
 An LVN is a low-volume corridor between accepted distributions. Price may move
 quickly through it because little historical trade was facilitated there. This
 model does not buy or sell the center of the LVN; it trades rejection after

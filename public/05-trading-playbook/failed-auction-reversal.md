@@ -5,6 +5,10 @@ icon: rotate-left
 
 # Failed Auction Reversal
 
+{% hint style="info" %}
+Freeze the boundary, failure and reclaim tests, retest window, offset, stop trigger source, cancellation, and targets in the [Frozen Model Specification](model-specification.md) before testing this variant.
+{% endhint %}
+
 The Failed Auction Reversal trades re-entry into a prior auction after an
 outside test fails to establish value. Entry follows confirmed failure; the
 first excursion supplies location only. It is a confirmation-first model, so a

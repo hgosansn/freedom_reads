@@ -33,6 +33,7 @@
 ## 05. Entry Model Library
 
 * [Entry Model Library](05-trading-playbook/README.md)
+* [Frozen Model Specification](05-trading-playbook/model-specification.md)
 * [Balance-edge fade](05-trading-playbook/balance-edge-fade.md)
 * [Failed Auction Reversal](05-trading-playbook/failed-auction-reversal.md)
 * [Breakout Acceptance](05-trading-playbook/breakout-acceptance.md)

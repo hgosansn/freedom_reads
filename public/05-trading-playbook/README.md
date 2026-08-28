@@ -5,6 +5,8 @@ icon: crosshairs
 
 # Entry Model Library
 
+Every deployable variant must have a completed, versioned [Frozen Model Specification](model-specification.md). The tables below define model logic; the specification fixes venue-dependent numbers and order behavior before validation.
+
 An entry model is a complete decision rule, not a chart shape. It defines the
 market state, location, evidence required before entry, order price,
 invalidation, cancellation conditions, and target path. If any field is

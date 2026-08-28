@@ -5,6 +5,10 @@ icon: arrow-up-right-dots
 
 # Breakout Acceptance
 
+{% hint style="info" %}
+Freeze the acceptance test, retest window, offset, stop trigger source, cancellation, and targets in the [Frozen Model Specification](model-specification.md) before testing this variant.
+{% endhint %}
+
 The Breakout Acceptance setup enters after the market leaves balance and
 establishes trade in the new area. Crossing the boundary identifies an attempt;
 acceptance qualifies the trade. The default library variant is the first retest
