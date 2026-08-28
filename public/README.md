@@ -36,10 +36,15 @@ Later decisions remain conditional on the earlier layers. A trigger cannot repai
 <tr><td><i class="fa-shield-halved"></i></td><td><strong>Risk Framework</strong></td><td>Control trade, portfolio, drawdown, and operational exposure.</td><td><a href="06-risk-framework/README.md">Define risk</a></td></tr>
 <tr><td><i class="fa-file-contract"></i></td><td><strong>Derivatives Mechanics</strong></td><td>Define product, price, funding, margin, and liquidation behavior.</td><td><a href="07-derivatives-mechanics/README.md">Specify the contract</a></td></tr>
 <tr><td><i class="fa-sliders"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="08-execution-framework/entry.md">Build execution</a></td></tr>
-<tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="09-checklists/pre-market.md">Use checklists</a></td></tr>
+<tr><td><i class="fa-flask"></i></td><td><strong>Research and Validation</strong></td><td>Test frozen models, costs, uncertainty, and deployment gates.</td><td><a href="09-research-validation/README.md">Validate evidence</a></td></tr>
+<tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="10-checklists/pre-market.md">Use checklists</a></td></tr>
 </tbody></table>
 
 ## How to use the course
+
+Treat every numeric study count elsewhere in the course as a pilot minimum, not
+as proof. Before drawing performance conclusions, replace it with a registered
+sampling and stopping plan from [Research and Validation](09-research-validation/README.md).
 
 Work through the modules in sequence once. Annotate charts, then test each entry
 model on a predefined in-sample set and an untouched out-of-sample set. Record

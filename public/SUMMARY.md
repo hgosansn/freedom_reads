@@ -62,13 +62,21 @@
 * [Targets](08-execution-framework/targets.md)
 * [Management](08-execution-framework/management.md)
 
-## 09. Checklists
+## 09. Research and Validation
 
-* [Pre-market](09-checklists/pre-market.md)
-* [Pre-trade](09-checklists/pre-trade.md)
-* [Post-trade review](09-checklists/post-trade-review.md)
+* [Research and Validation](09-research-validation/README.md)
+* [Experimental design](09-research-validation/experimental-design.md)
+* [Metrics and uncertainty](09-research-validation/metrics-uncertainty.md)
+* [Bias controls](09-research-validation/bias-controls.md)
+* [Forward validation](09-research-validation/forward-validation.md)
 
-## 10. Quotes
+## 10. Checklists
 
-* [Make it stop me out](10-quotes/make-it-stop-me-out.md)
-* [It's okay to be wrong](10-quotes/its-okay-to-be-wrong.md)
+* [Pre-market](10-checklists/pre-market.md)
+* [Pre-trade](10-checklists/pre-trade.md)
+* [Post-trade review](10-checklists/post-trade-review.md)
+
+## 11. Quotes
+
+* [Make it stop me out](11-quotes/make-it-stop-me-out.md)
+* [It's okay to be wrong](11-quotes/its-okay-to-be-wrong.md)
