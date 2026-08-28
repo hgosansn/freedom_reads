@@ -39,6 +39,12 @@
 * [Breakout Acceptance](05-trading-playbook/breakout-acceptance.md)
 * [Trend Pullback](05-trading-playbook/trend-pullback.md)
 * [LVN rejection / reclaim](05-trading-playbook/lvn-rejection-reclaim.md)
+* [Worked Case Studies](05-trading-playbook/case-studies/README.md)
+    * [Valid balance fade](05-trading-playbook/case-studies/valid-balance-fade.md)
+    * [Canceled balance fade](05-trading-playbook/case-studies/canceled-balance-fade.md)
+    * [Failed auction non-fill](05-trading-playbook/case-studies/failed-auction-non-fill.md)
+    * [Accepted or false breakout](05-trading-playbook/case-studies/accepted-vs-false-breakout.md)
+    * [Pullback in transition](05-trading-playbook/case-studies/trend-pullback-transition.md)
 
 ## 06. Risk Framework
 
