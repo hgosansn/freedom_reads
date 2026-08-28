@@ -46,7 +46,7 @@ Assume the balance high `R` is `100.00`, tick size is `0.10`, acceptance is
 defined as two execution-timeframe closes above `100.80`, and the tested retest
 offset `d` is `0.30`. After acceptance completes, place a buy limit at `100.30`.
 If the invalidation rule is a close below `99.70`, the protective stop is
-derived from that condition plus the execution buffer—not from an arbitrary
+derived from that condition plus the execution buffer, not from an arbitrary
 fixed percentage.
 
 If external liquidity at `104.00` trades before the retest, cancel the order.
@@ -54,7 +54,7 @@ The market has already delivered the modeled expansion.
 
 ## Entry variants
 
-**Acceptance retest — default:** place the passive limit only after the
+**Acceptance retest, default:** place the passive limit only after the
 acceptance rule completes. This creates non-fill risk but preserves the model's
 location and structural invalidation.
 

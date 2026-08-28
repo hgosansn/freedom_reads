@@ -27,7 +27,7 @@ Crypto has no universal open, so “pre-market” means the scheduled preparatio
 - [ ] Write the primary continuation scenario.
 - [ ] Write the failure or reversal scenario.
 - [ ] State the evidence required for acceptance and rejection.
-- [ ] Match each valid scenario to a named playbook setup.
+- [ ] Match each valid scenario to a named entry model.
 - [ ] Define the no-trade zone and conditions.
 
 {% hint style="success" %}

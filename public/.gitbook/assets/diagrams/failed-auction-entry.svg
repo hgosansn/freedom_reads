@@ -5,7 +5,7 @@
   <rect width="960" height="520" rx="24" fill="#0b1220"/>
   <rect x="72" y="86" width="816" height="254" rx="12" fill="#2563eb" opacity=".10" stroke="#5b8cff" stroke-width="2"/>
   <g font-family="Inter,Arial,sans-serif">
-    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Failed auction reversal — triggered retest limit</text>
+    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Failed auction reversal: triggered retest limit</text>
     <g stroke-width="2" stroke-dasharray="8 7"><path d="M72 132H888" stroke="#38e08f"/><path d="M72 252H888" stroke="#f4c95d"/><path d="M72 378H888" stroke="#ef5b5b"/></g>
     <g font-size="15" font-weight="700"><text x="76" y="122" fill="#38e08f">POC / TARGET 1 · 103.50</text><text x="76" y="242" fill="#f4c95d">BOUNDARY R · 100.00</text><text x="76" y="368" fill="#ef5b5b">FAILED EXTREME · 98.80</text></g>
     <path d="M100 188L185 230L270 195L350 245L430 325L505 385L565 292L625 218L700 252L770 182L855 128" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>

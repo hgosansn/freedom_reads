@@ -38,7 +38,7 @@ accepted auction that produced the balance.
 Suppose the qualified lower-edge zone is `99.80–100.20`, tick size is `0.10`,
 and the tested rule is the zone midpoint. The buy limit is `100.00`. If the
 structural invalidation is acceptance below `99.50`, the stop order belongs
-beyond that acceptance threshold plus the venue-tested execution buffer—not at
+beyond that acceptance threshold plus the venue-tested execution buffer, not at
 the limit simply because price traded through it.
 
 Position size is calculated from the final stop distance, including fees and
@@ -56,7 +56,7 @@ buffer.
 ## When a resting limit is allowed
 
 A resting order is permitted only because the regime and location authorize
-the trade before the touch. If the playbook requires rejection first, cancel
+the trade before the touch. If the entry model requires rejection first, cancel
 the resting order and use the [Failed Auction
 Reversal](failed-auction-reversal.md) instead.
 

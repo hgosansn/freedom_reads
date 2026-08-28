@@ -38,8 +38,8 @@ through the corridor is a different setup and must not be faded.
 ### Numeric example
 
 If the LVN spans `98.80–100.00`, the upper lip `R` is `100.00`, tick size is
-`0.10`, and tested offset `d` is `0.20`, the buy limit is `100.20` after—not
-before—the reclaim. An invalidation at `98.60` risks the entire failed-rejection
+`0.10`, and tested offset `d` is `0.20`, the buy limit is `100.20` after, not
+before, the reclaim. An invalidation at `98.60` risks the entire failed-rejection
 structure. If that distance is too large for positive expectancy, skip rather
 than moving the stop into the LVN arbitrarily.
 

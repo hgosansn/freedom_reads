@@ -11,7 +11,7 @@ Pause before every order. The purpose is to prevent urgency from bypassing the d
 
 - [ ] What is the regime on the analysis timeframe?
 - [ ] Is this location defined by the selected profile, external structure, or measured liquidity?
-- [ ] Which named playbook setup is present?
+- [ ] Which named entry model is present?
 - [ ] What observable evidence confirms it now?
 - [ ] What would prove the thesis wrong?
 - [ ] Am I interpreting current information rather than chasing a move I missed?

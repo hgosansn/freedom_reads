@@ -37,7 +37,8 @@ Then classify the trade: **good win, good loss, bad win, or bad loss**. Process 
 - [ ] What one behavior will change next time?
 
 {% hint style="info" %}
-Change a playbook rule only after the predefined sample closes. A single loss has no authority to rewrite the model.
+Change an entry-model rule only after the predefined sample closes. A single
+loss has no authority to rewrite the model.
 {% endhint %}
 
 ## Weekly review

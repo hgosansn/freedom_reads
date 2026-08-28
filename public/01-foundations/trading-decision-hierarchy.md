@@ -12,7 +12,7 @@ Signals inherit meaning from context. Positive delta can confirm continuation ab
 1. **Regime:** balance, trend, or transition.
 2. **Location:** value, range edge, breakout area, prior extreme, or liquidity pool.
 3. **Narrative:** the falsifiable path price is expected to take.
-4. **Setup:** a named playbook pattern with known statistics.
+4. **Entry model:** a named, executable pattern with known statistics.
 5. **Trigger:** observable authorization to enter now.
 6. **Risk:** invalidation, size, targets, and management.
 

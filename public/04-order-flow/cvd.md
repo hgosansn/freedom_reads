@@ -12,7 +12,9 @@ Cumulative volume delta (CVD) is the running sum of ask volume minus bid volume.
 ## Useful comparisons
 
 - **Price and CVD rise:** aggressive buying supports the move.
-- **Price rises while CVD falls:** passive buyers may be lifting price, sellers may be absorbed, or the selected feed may not represent the move.
+- **Price rises while CVD falls:** aggressive selling may be absorbed by
+  repricing bids while offers withdraw or reprice higher, or the selected feed
+  may not represent the move.
 - **Price falls while CVD rises:** buying is ineffective and may be absorbed.
 - **Price holds while CVD trends:** persistent aggression is being met by passive liquidity.
 

@@ -11,7 +11,10 @@ Markets move when aggressive buyers or sellers consume the resting liquidity ava
 
 **Intent** is why participants act: rebalance inventory, hedge, liquidate, speculate, or execute systematic flow. We cannot observe intent directly.
 
-**Orders** are how that intent enters the market. Limit orders provide liquidity; market orders demand immediacy; stops become marketable orders when triggered.
+**Orders** are how that intent enters the market. Limit orders provide
+liquidity; market orders demand immediacy. A stop-market order becomes a market
+order when triggered. A stop-limit order instead submits a limit order and can
+remain unfilled.
 
 **Outcome** is the observable response: displacement, absorption, rejection, or continued balance. Positioning follows the observed response; explanations of intent remain hypotheses.
 

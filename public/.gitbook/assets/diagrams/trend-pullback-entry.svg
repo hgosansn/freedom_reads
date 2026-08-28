@@ -4,7 +4,7 @@
   <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#f8fafc"/></marker></defs>
   <rect width="960" height="520" rx="24" fill="#0b1220"/>
   <g font-family="Inter,Arial,sans-serif">
-    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Trend pullback — confirmation and retest</text>
+    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Trend pullback: confirmation and retest</text>
     <rect x="300" y="286" width="390" height="74" rx="10" fill="#2563eb" opacity=".14" stroke="#5b8cff" stroke-width="2"/><text x="316" y="345" fill="#94a3b8" font-size="14">PLANNED SUPPORT · 100.00–101.00</text>
     <g stroke-width="2" stroke-dasharray="8 7"><path d="M72 112H888" stroke="#38e08f"/><path d="M72 266H888" stroke="#f4c95d"/><path d="M72 386H888" stroke="#ef5b5b"/></g>
     <g font-size="15" font-weight="700"><text x="76" y="102" fill="#38e08f">PRIOR HIGH / TARGET 1 · 105.00</text><text x="76" y="256" fill="#f4c95d">TRIGGER BASE T / LIMIT · 101.40</text><text x="76" y="376" fill="#ef5b5b">STRUCTURAL INVALIDATION · 99.60</text></g>

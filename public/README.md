@@ -33,12 +33,15 @@ Later decisions remain conditional on the earlier layers. A trigger cannot repai
 <tr><td><i class="fa-scale-balanced"></i></td><td><strong>Auction Market Theory</strong></td><td>Map value, balance, profile nodes, and failed auctions.</td><td><a href="03-auction-market-theory/balance-imbalance.md">Study the auction</a></td></tr>
 <tr><td><i class="fa-wave-square"></i></td><td><strong>Order Flow</strong></td><td>Interpret aggression, absorption, exhaustion, and CVD.</td><td><a href="04-order-flow/bid-ask-delta.md">Read flow</a></td></tr>
 <tr><td><i class="fa-crosshairs"></i></td><td><strong>Entry Model Library</strong></td><td>Price and test five location, reversal, and continuation entries.</td><td><a href="05-trading-playbook/README.md">Open library</a></td></tr>
-<tr><td><i class="fa-crosshairs"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="06-execution-framework/entry.md">Build execution</a></td></tr>
+<tr><td><i class="fa-sliders"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="06-execution-framework/entry.md">Build execution</a></td></tr>
 <tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="07-checklists/pre-market.md">Use checklists</a></td></tr>
 </tbody></table>
 
 ## How to use the course
 
-Work through the modules in sequence once. Annotate charts, then test each playbook on a minimum of 50 in-sample and 30 out-of-sample cases. Record only information available **at the decision point**. Completed charts test recognition; frozen charts test decisions.
+Work through the modules in sequence once. Annotate charts, then test each entry
+model on a predefined in-sample set and an untouched out-of-sample set. Record
+only information available **at the decision point**. Completed charts test
+recognition; frozen charts test decisions.
 
 Journal process and outcome separately. A rule-compliant loss remains valid setup data. A winner produced by an unplanned entry or risk violation belongs in the error sample.

@@ -30,7 +30,7 @@ Use one of two variants:
 - **Location-first:** the planned zone itself authorizes a resting limit after
   trend qualification. This requires independent evidence that blind tests of
   that reference have positive expectancy.
-- **Confirmation-retest — default:** wait for rejection and an internal
+- **Confirmation-retest, default:** wait for rejection and an internal
   structure break, then place a limit at the first retest of the trigger base.
 
 Do not pool the variants in testing.

@@ -4,7 +4,7 @@
   <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#f8fafc"/></marker></defs>
   <rect width="960" height="520" rx="24" fill="#0b1220"/>
   <g font-family="Inter,Arial,sans-serif">
-    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Balance-edge fade — location-first resting limit</text>
+    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Balance-edge fade: location-first resting limit</text>
     <rect x="72" y="94" width="816" height="292" rx="12" fill="#2563eb" opacity=".09" stroke="#5b8cff" stroke-width="2"/>
     <rect x="72" y="326" width="816" height="42" rx="7" fill="#f4c95d" opacity=".14" stroke="#f4c95d"/>
     <g stroke-width="2" stroke-dasharray="8 7"><path d="M72 104H888" stroke="#38e08f"/><path d="M72 222H888" stroke="#94a3b8"/><path d="M72 347H888" stroke="#f4c95d"/><path d="M72 402H888" stroke="#ef5b5b"/></g>
