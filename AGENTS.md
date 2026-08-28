@@ -31,7 +31,7 @@ crypto market-reading and trade-execution course published at
 
 - `public/README.md` is the GitBook landing page and course overview.
 - `public/SUMMARY.md` defines the published navigation and page order.
-- `public/01-foundations/` through `public/09-quotes/` contain the curriculum.
+- `public/01-foundations/` through `public/08-quotes/` contain the curriculum.
 - `public/.gitbook/assets/diagrams/` contains the SVG diagrams referenced by
   course pages.
 - `assets/logo.png` is a repository-level brand asset and is not currently
@@ -51,14 +51,14 @@ The curriculum is organized as follows:
    pullback setups.
 6. Execution Framework: entry, invalidation, targets, and management.
 7. Checklists: pre-market, pre-trade, and post-trade review.
-8. Rules: the "Make it stop me out" execution rule.
-9. Quotes: researched trading maxims translated into operational rules.
+8. Quotes: researched trading maxims, including “Make it stop me out,”
+   translated into operational rules.
 
 ## Current Progress
 
 Snapshot as of 2026-08-28:
 
-- The navigated course contains 28 curriculum pages across nine modules, plus
+- The navigated course contains 28 curriculum pages across eight modules, plus
   the GitBook landing page.
 - All pages listed in `public/SUMMARY.md` exist; no TODO, TBD, FIXME, WIP, draft,
   or placeholder markers are present in the repository content.
@@ -71,6 +71,8 @@ Snapshot as of 2026-08-28:
   wrong; it’s not okay to stay wrong.”
 - The Quotes release has been pushed to `origin/main` and confirmed live on the
   published GitBook site.
+- The former single-page Rules module has been consolidated into Quotes, keeping
+  the course navigation contiguous at eight modules.
 
 ## Pending Work
 

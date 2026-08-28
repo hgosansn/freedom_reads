@@ -49,10 +49,7 @@
 * [Pre-trade](07-checklists/pre-trade.md)
 * [Post-trade review](07-checklists/post-trade-review.md)
 
-## 08. Rules
+## 08. Quotes
 
-* [Make it stop me out](08-rules/make-it-stop-me-out.md)
-
-## 09. Quotes
-
-* [It's okay to be wrong](09-quotes/its-okay-to-be-wrong.md)
+* [Make it stop me out](08-quotes/make-it-stop-me-out.md)
+* [It's okay to be wrong](08-quotes/its-okay-to-be-wrong.md)
