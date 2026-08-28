@@ -33,8 +33,9 @@ Later decisions remain conditional on the earlier layers. A trigger cannot repai
 <tr><td><i class="fa-scale-balanced"></i></td><td><strong>Auction Market Theory</strong></td><td>Map value, balance, profile nodes, and failed auctions.</td><td><a href="03-auction-market-theory/balance-imbalance.md">Study the auction</a></td></tr>
 <tr><td><i class="fa-wave-square"></i></td><td><strong>Order Flow</strong></td><td>Interpret aggression, absorption, exhaustion, and CVD.</td><td><a href="04-order-flow/bid-ask-delta.md">Read flow</a></td></tr>
 <tr><td><i class="fa-crosshairs"></i></td><td><strong>Entry Model Library</strong></td><td>Price and test five location, reversal, and continuation entries.</td><td><a href="05-trading-playbook/README.md">Open library</a></td></tr>
-<tr><td><i class="fa-sliders"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="06-execution-framework/entry.md">Build execution</a></td></tr>
-<tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="07-checklists/pre-market.md">Use checklists</a></td></tr>
+<tr><td><i class="fa-shield-halved"></i></td><td><strong>Risk Framework</strong></td><td>Control trade, portfolio, drawdown, and operational exposure.</td><td><a href="06-risk-framework/README.md">Define risk</a></td></tr>
+<tr><td><i class="fa-sliders"></i></td><td><strong>Execution Framework</strong></td><td>Standardize entry, invalidation, targets, and management.</td><td><a href="07-execution-framework/entry.md">Build execution</a></td></tr>
+<tr><td><i class="fa-list-check"></i></td><td><strong>Checklists</strong></td><td>Standardize preparation, execution, and review.</td><td><a href="08-checklists/pre-market.md">Use checklists</a></td></tr>
 </tbody></table>
 
 ## How to use the course

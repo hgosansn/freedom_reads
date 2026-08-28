@@ -15,11 +15,14 @@ Add a tested execution buffer for spread, tick size, and venue volatility beyond
 
 ## Position sizing
 
-`position size = account risk / stop distance`
+After fixing structural invalidation and the expected stop-fill price, calculate
+quantity with the [Position sizing](../06-risk-framework/position-sizing.md)
+protocol. Include entry and exit fees, expected stop slippage, funding exposure,
+and the venue size step.
 
-For linear USDT-settled contracts, if account risk is 100 USDT and entry-to-stop distance is 2%, notional size is approximately 5,000 USDT before fees and slippage. Contract specifications differ; verify inverse or coin-margined products separately.
-
-Include trading fees, expected slippage, funding exposure, and correlation with open positions. Treat several altcoin longs driven by the same BTC beta as one concentrated factor exposure.
+Then apply [Portfolio heat](../06-risk-framework/portfolio-heat.md). Several
+altcoin longs driven by the same BTC beta form one concentrated scenario, not
+independent trade risk.
 
 {% hint style="warning" %}
 Leverage changes margin usage and liquidation distance; it does not reduce the trade's underlying price risk. Keep liquidation comfortably beyond the planned stop.

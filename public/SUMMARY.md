@@ -39,20 +39,28 @@
 * [Trend Pullback](05-trading-playbook/trend-pullback.md)
 * [LVN rejection / reclaim](05-trading-playbook/lvn-rejection-reclaim.md)
 
-## 06. Execution Framework
+## 06. Risk Framework
 
-* [Entry](06-execution-framework/entry.md)
-* [Invalidation](06-execution-framework/invalidation.md)
-* [Targets](06-execution-framework/targets.md)
-* [Management](06-execution-framework/management.md)
+* [Risk Framework](06-risk-framework/README.md)
+* [Position sizing](06-risk-framework/position-sizing.md)
+* [Portfolio heat](06-risk-framework/portfolio-heat.md)
+* [Drawdown controls](06-risk-framework/drawdown-controls.md)
+* [Operational and counterparty risk](06-risk-framework/operational-counterparty-risk.md)
 
-## 07. Checklists
+## 07. Execution Framework
 
-* [Pre-market](07-checklists/pre-market.md)
-* [Pre-trade](07-checklists/pre-trade.md)
-* [Post-trade review](07-checklists/post-trade-review.md)
+* [Entry](07-execution-framework/entry.md)
+* [Invalidation](07-execution-framework/invalidation.md)
+* [Targets](07-execution-framework/targets.md)
+* [Management](07-execution-framework/management.md)
 
-## 08. Quotes
+## 08. Checklists
 
-* [Make it stop me out](08-quotes/make-it-stop-me-out.md)
-* [It's okay to be wrong](08-quotes/its-okay-to-be-wrong.md)
+* [Pre-market](08-checklists/pre-market.md)
+* [Pre-trade](08-checklists/pre-trade.md)
+* [Post-trade review](08-checklists/post-trade-review.md)
+
+## 09. Quotes
+
+* [Make it stop me out](09-quotes/make-it-stop-me-out.md)
+* [It's okay to be wrong](09-quotes/its-okay-to-be-wrong.md)
