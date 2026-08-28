@@ -47,20 +47,28 @@
 * [Drawdown controls](06-risk-framework/drawdown-controls.md)
 * [Operational and counterparty risk](06-risk-framework/operational-counterparty-risk.md)
 
-## 07. Execution Framework
+## 07. Crypto Derivatives Mechanics
 
-* [Entry](07-execution-framework/entry.md)
-* [Invalidation](07-execution-framework/invalidation.md)
-* [Targets](07-execution-framework/targets.md)
-* [Management](07-execution-framework/management.md)
+* [Crypto Derivatives Mechanics](07-derivatives-mechanics/README.md)
+* [Contract types](07-derivatives-mechanics/contract-types.md)
+* [Price references and liquidation](07-derivatives-mechanics/price-liquidation.md)
+* [Funding and basis](07-derivatives-mechanics/funding-basis.md)
+* [Margin and collateral](07-derivatives-mechanics/margin-collateral.md)
 
-## 08. Checklists
+## 08. Execution Framework
 
-* [Pre-market](08-checklists/pre-market.md)
-* [Pre-trade](08-checklists/pre-trade.md)
-* [Post-trade review](08-checklists/post-trade-review.md)
+* [Entry](08-execution-framework/entry.md)
+* [Invalidation](08-execution-framework/invalidation.md)
+* [Targets](08-execution-framework/targets.md)
+* [Management](08-execution-framework/management.md)
 
-## 09. Quotes
+## 09. Checklists
 
-* [Make it stop me out](09-quotes/make-it-stop-me-out.md)
-* [It's okay to be wrong](09-quotes/its-okay-to-be-wrong.md)
+* [Pre-market](09-checklists/pre-market.md)
+* [Pre-trade](09-checklists/pre-trade.md)
+* [Post-trade review](09-checklists/post-trade-review.md)
+
+## 10. Quotes
+
+* [Make it stop me out](10-quotes/make-it-stop-me-out.md)
+* [It's okay to be wrong](10-quotes/its-okay-to-be-wrong.md)
