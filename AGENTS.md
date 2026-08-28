@@ -69,11 +69,11 @@ Snapshot as of 2026-08-28:
   tracks the previously committed root copy.
 - The Quotes module now begins with a researched treatment of “It’s okay to be
   wrong; it’s not okay to stay wrong.”
+- The Quotes release has been pushed to `origin/main` and confirmed live on the
+  published GitBook site.
 
 ## Pending Work
 
-- Confirm the GitBook deployment reflects the latest Quotes and repository
-  housekeeping changes.
 - Decide whether `assets/logo.png` should be wired into the repository README,
   GitBook customization, or both.
 
