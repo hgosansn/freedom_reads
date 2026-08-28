@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Balance edge fade resting limit-entry model</title>
+  <desc id="desc">Long example: stable value ranges between 99.80 and 104.20. A resting buy at the 100 midpoint of the lower-edge zone targets POC at 102 and the upper edge. Acceptance below 99.50 invalidates.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#f8fafc"/></marker></defs>
+  <rect width="960" height="520" rx="24" fill="#0b1220"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Balance-edge fade — location-first resting limit</text>
+    <rect x="72" y="94" width="816" height="292" rx="12" fill="#2563eb" opacity=".09" stroke="#5b8cff" stroke-width="2"/>
+    <rect x="72" y="326" width="816" height="42" rx="7" fill="#f4c95d" opacity=".14" stroke="#f4c95d"/>
+    <g stroke-width="2" stroke-dasharray="8 7"><path d="M72 104H888" stroke="#38e08f"/><path d="M72 222H888" stroke="#94a3b8"/><path d="M72 347H888" stroke="#f4c95d"/><path d="M72 402H888" stroke="#ef5b5b"/></g>
+    <g font-size="14" font-weight="700"><text x="76" y="93" fill="#38e08f">TARGET 2 / UPPER EDGE · 104.20</text><text x="76" y="212" fill="#cbd5e1">TARGET 1 / POC · 102.00</text><text x="76" y="338" fill="#f4c95d">LOWER-EDGE ZONE · 99.80–100.20</text><text x="76" y="392" fill="#ef5b5b">ACCEPTANCE INVALIDATION · 99.50</text></g>
+    <path d="M95 300L165 175L235 265L305 145L380 250L450 330L520 210L590 128L660 238L735 346L810 225L875 120" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="450" cy="330" r="9" fill="#f4c95d"/><circle cx="735" cy="346" r="9" fill="#f4c95d"/>
+    <path d="M450 350V394" stroke="#f4c95d" stroke-width="2" marker-end="url(#arrow)"/><text x="372" y="426" fill="#f4c95d" font-size="16" font-weight="700">RESTING BUY · 100.00</text>
+    <rect x="72" y="448" width="816" height="42" rx="9" fill="#172033"/><text x="92" y="474" fill="#cbd5e1" font-size="15">Cancel before fill: value migrates down · downside drive expands · POC trades first</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Breakout acceptance retest limit-entry model</title>
+  <desc id="desc">Long example: price leaves a range above 100, completes an acceptance rule above 100.80, then retests a 100.30 buy limit before targeting 104. A close below 99.70 invalidates the setup.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#f8fafc"/></marker></defs>
+  <rect width="960" height="520" rx="24" fill="#0b1220"/>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="72" y="50" fill="#f8fafc" font-size="24" font-weight="700">Breakout acceptance — first retest limit</text>
+    <rect x="72" y="280" width="455" height="118" rx="10" fill="#2563eb" opacity=".12" stroke="#5b8cff" stroke-width="2"/>
+    <text x="88" y="380" fill="#94a3b8" font-size="15">OLD BALANCE</text>
+    <g stroke-width="2" stroke-dasharray="8 7"><path d="M72 134H888" stroke="#38e08f"/><path d="M72 280H888" stroke="#f4c95d"/><path d="M72 325H888" stroke="#ef5b5b"/></g>
+    <g font-size="15" font-weight="700"><text x="76" y="124" fill="#38e08f">TARGET 1 · 104.00</text><text x="76" y="270" fill="#f4c95d">RANGE HIGH R · 100.00</text><text x="76" y="315" fill="#ef5b5b">INVALIDATION CLOSE · 99.70</text></g>
+    <path d="M95 350L160 305L225 365L290 310L350 360L410 300L470 220L525 185L575 205L625 176L690 286L755 220L830 145L875 116" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="480" y="160" width="170" height="64" rx="9" fill="#38e08f" opacity=".12" stroke="#38e08f"/>
+    <text x="497" y="184" fill="#38e08f" font-size="14" font-weight="700">ACCEPTANCE COMPLETE</text><text x="497" y="205" fill="#cbd5e1" font-size="13">2 closes above 100.80</text>
+    <circle cx="690" cy="286" r="9" fill="#f4c95d"/><path d="M690 306V350" stroke="#f4c95d" stroke-width="2" marker-end="url(#arrow)"/><text x="612" y="376" fill="#f4c95d" font-size="16" font-weight="700">BUY LIMIT · 100.30</text>
+    <rect x="72" y="448" width="816" height="42" rx="9" fill="#172033"/><text x="92" y="474" fill="#cbd5e1" font-size="15">Cancel unfilled: closes back inside · 104.00 trades first · retest window expires</text>
+  </g>
+</svg>

@@ -47,8 +47,8 @@ The curriculum is organized as follows:
 3. Auction Market Theory: balance, value, profile references, and failed
    auctions.
 4. Order Flow: bid/ask delta, absorption, exhaustion, trapped traders, and CVD.
-5. Trading Playbook: failed-auction reversal, breakout acceptance, and trend
-   pullback setups.
+5. Entry Model Library: balance-edge fade, failed-auction reversal,
+   breakout-acceptance retest, trend pullback, and LVN rejection/reclaim.
 6. Execution Framework: entry, invalidation, targets, and management.
 7. Checklists: pre-market, pre-trade, and post-trade review.
 8. Quotes: researched trading maxims, including “Make it stop me out,”
@@ -58,13 +58,11 @@ The curriculum is organized as follows:
 
 Snapshot as of 2026-08-28:
 
-- The navigated course contains 28 curriculum pages across eight modules, plus
+- The navigated course contains 31 curriculum pages across eight modules, plus
   the GitBook landing page.
 - All pages listed in `public/SUMMARY.md` exist; no TODO, TBD, FIXME, WIP, draft,
   or placeholder markers are present in the repository content.
-- Ten SVG diagrams support the course and are used in 15 page placements.
-- The latest completed work added the Rules module and corrected the HVN/LVN
-  volume-profile illustration.
+- Fifteen SVG diagrams support the course and are used in 18 page placements.
 - Repository housekeeping now ignores macOS `.DS_Store` files and no longer
   tracks the previously committed root copy.
 - The Quotes module now begins with a researched treatment of “It’s okay to be
@@ -73,11 +71,17 @@ Snapshot as of 2026-08-28:
   published GitBook site.
 - The former single-page Rules module has been consolidated into Quotes, keeping
   the course navigation contiguous at eight modules.
+- The Trading Playbook is now a five-model Entry Model Library. Each model
+  defines its regime, reference, trigger, limit calculation, invalidation,
+  cancellation, targets, validation fields, and a precise annotated SVG.
 
 ## Pending Work
 
 - Decide whether `assets/logo.png` should be wired into the repository README,
   GitBook customization, or both.
+- Calibrate the library's illustrative entry offsets, trigger expiry, and
+  acceptance rules with instrument- and venue-specific replay plus live fill
+  data before treating them as production parameters.
 
 Update both **Current Progress** and **Pending Work** after every repository work
 session. Record completed items in Current Progress, remove them from Pending

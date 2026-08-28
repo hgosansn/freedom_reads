@@ -30,11 +30,14 @@
 * [Trapped traders](04-order-flow/trapped-traders.md)
 * [CVD](04-order-flow/cvd.md)
 
-## 05. Trading Playbook
+## 05. Entry Model Library
 
+* [Entry Model Library](05-trading-playbook/README.md)
+* [Balance-edge fade](05-trading-playbook/balance-edge-fade.md)
 * [Failed Auction Reversal](05-trading-playbook/failed-auction-reversal.md)
 * [Breakout Acceptance](05-trading-playbook/breakout-acceptance.md)
 * [Trend Pullback](05-trading-playbook/trend-pullback.md)
+* [LVN rejection / reclaim](05-trading-playbook/lvn-rejection-reclaim.md)
 
 ## 06. Execution Framework
 
